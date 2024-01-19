@@ -1,2 +1,2 @@
 # Web-Development
-Try to change this, sucker! I WILL CHANGE THIS!
+This is the GitHub Repo for the Web Development module.
