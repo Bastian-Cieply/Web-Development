@@ -11,8 +11,17 @@ const Model = new ModelClass();
 app.use(cookieParser());
 
 app.get('/', async (req, res) => {
-  const stores = await Model.getStores();
-  res.json(stores);
+  // Landingpage maybe?
+});
+
+app.get('/stores', async (req, res) => {
+  const { sortBy, sortOrder } = req.query;
+  try {
+      const stores = await Model.sortStores(sortBy, sortOrder);
+      res.json(stores);
+  } catch (error) {
+      res.status(400).json({ message: error.message });
+  }
 });
 
 app.get('/login', async (req, res) => {

@@ -111,6 +111,27 @@ class ModelClass {
     }
   }
 
+  async sortStores(sortBy, sortOrder) {
+    const allowedSortByFields = ['name', 'district'];
+    const allowedSortOrders = ['asc', 'desc'];
+
+    if (!allowedSortByFields.includes(sortBy)) {
+        throw new Error('Invalid sortBy parameter');
+    }
+
+    if (!allowedSortOrders.includes(sortOrder)) {
+        throw new Error('Invalid sortOrder parameter');
+    }
+
+    const query = `
+        SELECT * FROM stores
+        ORDER BY ${sortBy} ${sortOrder}
+    `;
+
+    const { rows } = await this.connection.query(query);
+    return rows;
+  }
+
 }
 
 module.exports = ModelClass;
