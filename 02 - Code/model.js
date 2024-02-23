@@ -66,10 +66,24 @@ class ModelClass {
     `);
   }
 
-  async getStores() {
-    const { rows } = await this.connection.query(`
-      SELECT * FROM stores
-    `);
+  async getStores(sortBy = 'name', sortOrder = 'asc') {
+    const allowedSortByFields = ['name', 'district', 'rating'];
+    const allowedSortOrders = ['asc', 'desc'];
+
+    if (!allowedSortByFields.includes(sortBy)) {
+        throw new Error('Invalid sortBy parameter');
+    }
+
+    if (!allowedSortOrders.includes(sortOrder)) {
+        throw new Error('Invalid sortOrder parameter');
+    }
+
+    const query = `
+        SELECT * FROM stores
+        ORDER BY ${sortBy} ${sortOrder}
+    `;
+
+    const { rows } = await this.connection.query(query);
     return rows;
   }
 
@@ -110,28 +124,6 @@ class ModelClass {
       }
     }
   }
-
-  async sortStores(sortBy = 'name', sortOrder = 'asc') {
-    const allowedSortByFields = ['name', 'district'];
-    const allowedSortOrders = ['asc', 'desc'];
-
-    if (!allowedSortByFields.includes(sortBy)) {
-        throw new Error('Invalid sortBy parameter');
-    }
-
-    if (!allowedSortOrders.includes(sortOrder)) {
-        throw new Error('Invalid sortOrder parameter');
-    }
-
-    const query = `
-        SELECT * FROM stores
-        ORDER BY ${sortBy} ${sortOrder}
-    `;
-
-    const { rows } = await this.connection.query(query);
-    return rows;
-  }
-
 }
 
 module.exports = ModelClass;

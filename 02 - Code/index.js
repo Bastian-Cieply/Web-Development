@@ -17,7 +17,7 @@ app.get('/', async (req, res) => {
 app.get('/stores', async (req, res) => {
   const { sortBy, sortOrder } = req.query;
   try {
-      const stores = await Model.sortStores(sortBy, sortOrder);
+      const stores = await Model.getStores(sortBy, sortOrder);
       res.json(stores);
   } catch (error) {
       res.status(400).json({ message: error.message });
@@ -35,6 +35,14 @@ app.get('/login', async (req, res) => {
   }
 });
 
+app.get('/user-logged-in', async(req, res) => {
+  if (req.cookies.session === 'my-session-cookie') {
+    res.send({ message: "User is logged in" });
+  } else {
+    res.status(401).send({ message: "User is not logged in" });
+  }
+});
+
 app.get('/register', async (req, res) => {
   const { email, password } = req.query;
   const status = await Model.registerUser(email, password);
@@ -42,14 +50,6 @@ app.get('/register', async (req, res) => {
     res.cookie('session', 'my-session-cookie', { httpOnly: true});
   }
   res.json(status);
-});
-
-app.get('/user-logged-in', async(req, res) => {
-  if (req.cookies.session === 'my-session-cookie') {
-    res.send({ message: "User is logged in" });
-  } else {
-    res.status(401).send({ message: "User is not logged in" });
-  }
 });
 
 const server = async () => {
