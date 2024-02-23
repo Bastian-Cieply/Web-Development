@@ -79,11 +79,12 @@ class ModelClass {
     }
 
     const query = `
-        SELECT * FROM stores
-        ORDER BY ${sortBy} ${sortOrder}
+      SELECT name, url, district FROM stores
+      ORDER BY ${sortBy} ${sortOrder}
     `;
 
     const { rows } = await this.connection.query(query);
+
     return rows;
   }
 

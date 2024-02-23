@@ -9,10 +9,10 @@ const ModelClass = require('./model.js');
 const Model = new ModelClass();
 
 app.use(cookieParser());
+let p = __dirname + '/public';
+app.use(express.static(p));
 
-app.get('/', async (req, res) => {
-  // Landingpage maybe?
-});
+
 
 app.get('/stores', async (req, res) => {
   const { sortBy, sortOrder } = req.query;
