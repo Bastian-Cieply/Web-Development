@@ -88,6 +88,27 @@ class ModelClass {
     return rows;
   }
 
+  async addStores(name, url, district, rating) {
+    try {
+      await this.connection.query(`
+        INSERT INTO stores (name, url, district, rating)
+        VALUES ($1, $2, $3, $4)
+      `, [name, url, district, rating]);
+      return { status: 'Success', message: 'Store added successfully' };
+    } catch (error) {
+      return { status: 'Error', message: error.message };
+    }
+  }
+
+  async deleteDatabase() {
+    await this.connection.query(`
+      DROP TABLE IF EXISTS stores;
+    `);
+    await this.connection.query(`
+      DROP TABLE IF EXISTS stores;
+    `);
+  }
+
   async registerUser(email, password) {
     const salt = crypto.randomBytes(16).toString('hex');
     const hashedPassword = crypto

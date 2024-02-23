@@ -12,6 +12,9 @@ app.use(cookieParser());
 let p = __dirname + '/public';
 app.use(express.static(p));
 
+app.get('/delete', async (req, res) => {
+  Model.deleteDatabase();
+});
 
 
 app.get('/stores', async (req, res) => {
@@ -21,6 +24,16 @@ app.get('/stores', async (req, res) => {
       res.json(stores);
   } catch (error) {
       res.status(400).json({ message: error.message });
+  }
+});
+
+app.get('/add-store', async (req, res) => {
+  const { name, url, district, rating } = req.query;
+  const status = await Model.addStores(name, url, district, rating);
+  if (status.status === 'Success') {
+    res.json({ message: "Added successful" });
+  } else {
+    res.status(400).json({ message: "Add failed" });
   }
 });
 
