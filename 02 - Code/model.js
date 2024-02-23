@@ -111,7 +111,7 @@ class ModelClass {
     }
   }
 
-  async sortStores(sortBy, sortOrder) {
+  async sortStores(sortBy = 'name', sortOrder = 'asc') {
     const allowedSortByFields = ['name', 'district'];
     const allowedSortOrders = ['asc', 'desc'];
 
