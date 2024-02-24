@@ -32,6 +32,16 @@ app.get('/add-store', async (req, res) => {
   }
 });
 
+app.get('/delete-store', async (req, res) => {
+  const { name, url, district, rating } = req.query;
+  const status = await Model.deleteStores(name, url, district, rating);
+  if (status.status === 'Success') {
+    res.json({ message: "Deleted successful" });
+  } else {
+    res.status(400).json({ message: "Delete failed" });
+  }
+});
+
 app.get('/login', async (req, res) => {
   const { email, password } = req.query;
   const status = await Model.userLogin(email, password);

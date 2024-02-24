@@ -100,6 +100,18 @@ class ModelClass {
     }
   }
 
+  async deleteStores(name, url, district, rating) {
+    try {
+      await this.connection.query(`
+        DELETE FROM stores
+        WHERE name = $1 AND url = $2 AND district = $3 AND rating = $4
+      `, [name, url, district, rating]);
+      return { status: 'Success', message: 'Store deleted successfully' };
+    } catch (error) {
+      return { status: 'Error', message: error.message };
+    }
+  }
+
   async registerUser(email, password) {
     const salt = crypto.randomBytes(16).toString('hex');
     const hashedPassword = crypto
