@@ -100,15 +100,6 @@ class ModelClass {
     }
   }
 
-  async deleteDatabase() {
-    await this.connection.query(`
-      DROP TABLE IF EXISTS stores;
-    `);
-    await this.connection.query(`
-      DROP TABLE IF EXISTS stores;
-    `);
-  }
-
   async registerUser(email, password) {
     const salt = crypto.randomBytes(16).toString('hex');
     const hashedPassword = crypto

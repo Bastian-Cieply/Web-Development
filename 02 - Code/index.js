@@ -12,11 +12,6 @@ app.use(cookieParser());
 let p = __dirname + '/public';
 app.use(express.static(p));
 
-app.get('/delete', async (req, res) => {
-  Model.deleteDatabase();
-});
-
-
 app.get('/stores', async (req, res) => {
   const { sortBy, sortOrder } = req.query;
   try {
