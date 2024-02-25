@@ -24,7 +24,7 @@ app.get('/stores', async (req, res) => {
 
 app.get('/add-store', async (req, res) => {
   const { name, url, district, rating } = req.query;
-  const status = await Model.addStores(name, url, district, rating);
+  const status = await Model.addStore(name, url, district, rating);
   if (status.status === 'Success') {
     res.json({ message: "Added successful" });
   } else {
@@ -34,11 +34,21 @@ app.get('/add-store', async (req, res) => {
 
 app.get('/delete-store', async (req, res) => {
   const { name, url, district, rating } = req.query;
-  const status = await Model.deleteStores(name, url, district, rating);
+  const status = await Model.deleteStore(name, url, district, rating);
   if (status.status === 'Success') {
     res.json({ message: "Deleted successful" });
   } else {
     res.status(400).json({ message: "Delete failed" });
+  }
+});
+
+app.get('/edit-store', async (req, res) => {
+  const {id, name, url, district, rating } = req.query;
+  const status = await Model.editStore(id, name, url, district, rating);
+  if (status.status === 'Success') {
+    res.json({ message: "Edit successful" });
+  } else {
+    res.status(400).json({ message: "Edit failed" });
   }
 });
 

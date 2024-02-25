@@ -88,7 +88,7 @@ class ModelClass {
     return rows;
   }
 
-  async addStores(name, url, district, rating) {
+  async addStore(name, url, district, rating) {
     try {
       await this.connection.query(`
         INSERT INTO stores (name, url, district, rating)
@@ -100,7 +100,7 @@ class ModelClass {
     }
   }
 
-  async deleteStores(name, url, district, rating) {
+  async deleteStore(name, url, district, rating) {
     try {
       await this.connection.query(`
         DELETE FROM stores
@@ -109,6 +109,31 @@ class ModelClass {
       return { status: 'Success', message: 'Store deleted successfully' };
     } catch (error) {
       return { status: 'Error', message: error.message };
+    }
+  }
+
+  async editStore(id, name, url, district, rating) {
+    try {
+      await this.connection.query(`
+        UPDATE stores
+        SET name = $1, url = $2, district = $3, rating = $4
+        WHERE id = $5
+      `, [name, url, district, rating, id]);
+      return { status: 'Success', message: 'Store edited successfully' };
+    } catch (error) {
+      return { status: 'Error', message: error.message };
+    }
+  }
+
+  async getStoreID(name, url, district, rating) {
+    const { rows } = await this.connection.query(`
+      SELECT id FROM stores
+      WHERE name = $1 AND url = $2 AND district = $3 AND rating = $4
+    `, [name, url, district, rating]);
+    if (rows.length === 1) {
+      return rows[0].id;
+    } else {
+      return null;
     }
   }
 
