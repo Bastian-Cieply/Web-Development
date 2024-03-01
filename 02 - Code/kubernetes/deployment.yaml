@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example2-deployment
+  name: jkpgnav-deployment
   namespace: jkpgcity
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: example2
+      app: jkpgnav
   template:
     metadata:
       labels:
-        app: example2
+        app: jkpgnav
     spec:
       containers:
-      - name: example2
+      - name: jkpgnav
         env:
         - name: DB_HOST
           value: "172.17.0.1"
-        image: localhost:5000/example2
+        image: localhost:5000/jkpgnav

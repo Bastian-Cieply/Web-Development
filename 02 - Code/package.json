@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "docker": "docker build -t example2 . && docker tag example2 localhost:5000/example2 && docker push localhost:5000/example2",
-    "k8s-deploy": "kubectl apply -f kubernetes/namespace.yaml && kubectl apply -f kubernetes/deployment.yaml && kubectl apply -f kubernetes/service.yaml && kubectl rollout restart -n jkpgcity deployment example2-deployment",
-    "k8s-run": "kubectl port-forward svc/example2-service 4000:3000 -n jkpgcity"
+    "docker": "docker build -t jkpgnav . && docker tag jkpgnav localhost:5000/jkpgnav && docker push localhost:5000/jkpgnav",
+    "k8s-deploy": "kubectl apply -f kubernetes/namespace.yaml && kubectl apply -f kubernetes/deployment.yaml && kubectl apply -f kubernetes/service.yaml && kubectl rollout restart -n jkpgcity deployment jkpgnav-deployment",
+    "k8s-run": "kubectl port-forward svc/jkpgnav-service 4000:3000 -n jkpgcity"
   },
   "author": "",
   "license": "ISC",
