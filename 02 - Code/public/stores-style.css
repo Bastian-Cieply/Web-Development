@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+}
+
+.header {
+    display: flex;
+    height: 7vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5vh 1.5vw;
+    background-color: #ffffff;
+}
+
+.header-icon {
+    height: 6vh;
+    width: auto;
+    border: #edae49 0.4vh solid;
+}
+
+.header-button {
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 3vw;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 4vh;
+    height: 0.6vh;
+    background-color: #edae49;
+    margin: 1vh 1vh;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    transform: translate(-30vw, 1.6vh) rotate(-45deg);
+}
+
+.change .bar2 {
+    opacity: 0;
+    transform: translate(-30vw, 0);
+}
+
+.change .bar3 {
+    transform: translate(-30vw, -1.6vh) rotate(45deg);
+}
+
+.sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    font: 2em 'Raleway';
+    right: -30vw; /* Sidebar initially hidden */
+    width: 30vw;
+    height: 100%;
+    border-left: #003d8f 0.5vh solid;
+    background-color: #ffffff; /* Example color */
+    transition: right 0.3s ease-in-out;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    width: auto;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    position: absolute;
+    top: 0;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+.grid-container-main {
+    display: grid;
+    grid-template-areas:
+        'stores map map';
+}
+
+.store-items {
+    height: 90vh;
+    width: 30vw;
+    text-align: center;
+    background-color: #003d8f
+}
+
+.map {
+    display: flex;
+    height: 90vh;
+    width: 70vw;
+    text-align: center;
+    background-color: #edae49
+}
+
+.grid-item {
+    padding: 20px;
+    text-align: center;
+    border:#ffffff;
+}
+
+.sidebar.active {
+    right: 0;
+}
+
+.sidebar-image {
+    position: relative;
+    z-index: 1;
+    height: 30vh;
+    width: auto;
+}
