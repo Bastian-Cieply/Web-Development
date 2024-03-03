@@ -85,14 +85,28 @@ body {
 .grid-container-main {
     display: grid;
     grid-template-areas:
-        'stores map map';
+        'store-items map map';
 }
 
 .store-items {
+    display: flex;
+    flex-direction: column; /* Elemente in Spaltenrichtung anordnen */
+    align-items: center; /* Links ausrichten */
     height: 90vh;
     width: 30vw;
+    background-color: #003d8f;
+    overflow-y: auto; /* Falls die Elemente den Bildschirmrand überschreiten */
+}
+
+.store-item {
+    height: 20vh;
+    width: 27.5vw;
+    background-color: #edae49;
+    margin: 1.5vh;
     text-align: center;
-    background-color: #003d8f
+    cursor: pointer;
+    border-radius: 2vw;
+    font-size: 2vh; /* Adjust the font size as needed */
 }
 
 .map {

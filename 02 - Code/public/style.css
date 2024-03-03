@@ -76,11 +76,23 @@ body {
   padding: 10px;
 }
 .grid-container-bottom {
+  text-align: center;
   display: grid;
-  position: flex;
-  grid-template-columns: auto auto auto;
-  padding: 10px;
+    grid-template-areas:
+        'title title title'
+        'b1 b2 b3';
 }
+
+.b1, .b2, .b3 {
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  padding-top: 10vh;
+  text-align: center;
+}
+
 .grid-item {
   padding: 20px;
   text-align: center;
