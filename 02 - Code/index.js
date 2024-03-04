@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+const path = require('path'); // Importieren Sie das 'path' Modul
 const cookieParser = require('cookie-parser');
 const express = require('express');
 const app = express();
@@ -12,11 +13,18 @@ app.use(cookieParser());
 let p = __dirname + '/public';
 app.use(express.static(p));
 
+app.get('/', async (req, res) => {
+  try {
+    res.sendFile(path.join(p, 'index.html')); 
+  } catch (error) {
+      res.status(400).json({ message: error.message });
+  }
+});
+
 app.get('/stores', async (req, res) => {
   const { sortBy, sortOrder } = req.query;
   try {
-      const stores = await Model.getStores(sortBy, sortOrder);
-      res.json(stores);
+    res.sendFile(path.join(p, 'stores.html')); 
   } catch (error) {
       res.status(400).json({ message: error.message });
   }

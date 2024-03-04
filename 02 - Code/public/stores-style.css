@@ -98,23 +98,49 @@ body {
     overflow-y: auto; /* Falls die Elemente den Bildschirmrand überschreiten */
 }
 
+.store-nav {
+    display: flex; /* Flexbox verwenden */
+    align-items: center;
+    height: 8%;
+    width: 100%;
+    background-color: #ffffff;
+    border-top:#edae49 0.4vh solid;
+}
+
+.store-nav > div {
+    flex: 1;
+}
+
+.store-nav > div:first-child {
+    flex: 2;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.store-nav > div:not(:first-child) {
+    text-align: right; 
+    padding-right: 5%;
+}
+
 .store-item {
     height: 20vh;
-    width: 27.5vw;
+    width: 28.5vw;
     background-color: #edae49;
     margin: 1.5vh;
     text-align: center;
     cursor: pointer;
-    border-radius: 2vw;
+    border-radius: 2vh;
     font-size: 2vh; /* Adjust the font size as needed */
 }
 
 .map {
     display: flex;
-    height: 90vh;
-    width: 70vw;
+    height: 89.6vh;
+    width: 69.6vw;
     text-align: center;
-    background-color: #edae49
+    background-color: #edae49;
+    border-left:#edae49 0.4vh solid; 
+    border-top:#edae49 0.4vh solid; 
 }
 
 .grid-item {
