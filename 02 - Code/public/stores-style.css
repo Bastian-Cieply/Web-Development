@@ -90,15 +90,24 @@ body {
 
 .store-items {
     display: flex;
+    position: relative;
     flex-direction: column; /* Elemente in Spaltenrichtung anordnen */
     align-items: center; /* Links ausrichten */
     height: 90vh;
     width: 30vw;
-    background-color: #003d8f;
+    background-color: #003d8f; 
+    border-right: #edae49 0.4vh solid;
     overflow-y: auto; /* Falls die Elemente den Bildschirmrand überschreiten */
 }
 
+.store-items::-webkit-scrollbar {
+    width: 0; /* Hide the scrollbar */
+}
+
 .store-nav {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     display: flex; /* Flexbox verwenden */
     align-items: center;
     height: 8%;
