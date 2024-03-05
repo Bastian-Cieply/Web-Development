@@ -1,3 +1,49 @@
+document.addEventListener('DOMContentLoaded', () => {
+    fetchStores();
+});
+
+function fetchStores() {
+    fetch('/api/stores')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(store => {
+                addStoreToDOM(store);
+            });
+        })
+        .catch(error => console.error('Error fetching stores:', error));
+}
+
+function addStoreToDOM(store) {
+    const storeItemsContainer = document.querySelector('.store-items');
+
+    const storeItem = document.createElement('div');
+    storeItem.classList.add('store-item');
+
+    let storeHTML = `<h3>${store.name}</h3>`;
+
+    console.log('Map URL:', store.mapsurl);
+
+    if (store.mapsurl !== null) {
+        storeItem.setAttribute('onclick', `showLocation('${store.mapsurl}')`);
+    } 
+
+    if (store.district !== null) {
+        storeHTML += `<p>District: ${store.district}</p>`;
+    }
+
+    if (store.rating !== null) {
+        storeHTML += `<p>Rating: ${store.rating}/5</p>`;
+    }
+
+    if (store.url !== null) {
+        storeHTML += `<a href="https://${store.url}">Website</a>`;
+    }
+
+    storeItem.innerHTML = storeHTML;
+
+    storeItemsContainer.appendChild(storeItem);
+}
+
 function myFunction(x) {
     x.classList.toggle("change");
     toggleSidebar();
@@ -8,9 +54,8 @@ function toggleSidebar() {
     sidebar.classList.toggle("active");
 }
 
-function showLocation() {
+function showLocation(mapsurl) {
     var iframe = document.querySelector('.map iframe');
-    var newSrc = "";
-    newSrc = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d444.9068246899738!2d14.1572471382899!3d57.78506481523093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de9e8881983%3A0x38207fc20fae82a4!2sAkademien%20Nightclub!5e0!3m2!1sde!2sse!4v1709464210385!5m2!1sde!2sse";
+    var newSrc = mapsurl;
     iframe.src = newSrc;
 }

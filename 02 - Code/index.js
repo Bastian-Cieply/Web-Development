@@ -22,11 +22,20 @@ app.get('/', async (req, res) => {
 });
 
 app.get('/stores', async (req, res) => {
+  try {
+    res.sendFile(path.join(p, 'stores.html'));
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+});
+
+app.get('/api/stores', async (req, res) => {
   const { sortBy, sortOrder } = req.query;
   try {
-    res.sendFile(path.join(p, 'stores.html')); 
+    const stores = await Model.getStores(sortBy, sortOrder);
+    res.json(stores);
   } catch (error) {
-      res.status(400).json({ message: error.message });
+    res.status(400).json({ message: error.message });
   }
 });
 

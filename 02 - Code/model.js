@@ -23,10 +23,11 @@ class ModelClass {
     CREATE TABLE IF NOT EXISTS public.stores
     (
         id SERIAL,
-        name text,
+        name text not null,
         url text,
         district text,
         rating integer,
+        mapsurl text,
         CONSTRAINT stores_pkey PRIMARY KEY (id)
     )`);
 
@@ -44,9 +45,9 @@ class ModelClass {
       if (rows.length === 0) {
         console.log(`Inserting ${store.name}`);
         await this.connection.query(`
-          INSERT INTO stores (name, url, district)
-          VALUES ($1, $2, $3)
-        `, [store.name, store.url, store.district]);
+          INSERT INTO stores (name, url, district, rating, mapsurl)
+          VALUES ($1, $2, $3, $4, $5)
+        `, [store.name, store.url, store.district, store.rating, store.mapsurl]);
       }
     }
 
@@ -79,7 +80,7 @@ class ModelClass {
     }
 
     const query = `
-      SELECT name, url, district FROM stores
+      SELECT name, url, district, rating, mapsurl FROM stores
       ORDER BY ${sortBy} ${sortOrder}
     `;
 
