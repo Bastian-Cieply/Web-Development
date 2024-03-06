@@ -53,343 +53,336 @@
     "url": "ateljekeg.se",
     "district": "Öster",
     "rating": null,
-    "mapsurl": null
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.162503092409!2d14.173487499999997!3d57.7816193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9516d42fe9%3A0x35a1afb6cc0e538d!2sAtelj%C3%A9%20KEG!5e0!3m2!1sde!2sse!4v1709739504028!5m2!1sde!2sse"
   },
   {
     "name": "Atlantis Dive College",
     "url": "atlantis.se",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Bagelle väskboutique",
-    "url": null,
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.7,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1619198522076!2d14.163890299999991!3d57.78162919999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6debb5ce96d5%3A0xec3867671377e3f0!2sAtlantis%20Dykspecialisten!5e0!3m2!1sde!2sse!4v1709739584064!5m2!1sde!2sse"
   },
   {
     "name": "Balance Ljud och Bild",
     "url": "balance.se",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Tändsticksområdet",
+    "rating": 4.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3422.0068786704032!2d14.154457115443122!3d57.78473911644558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d60061c4e07%3A0x51b0793676f7266e!2sBalance%20Ljud%20%26%20Bild!5e0!3m2!1sde!2sse!4v1709739784256!5m2!1sde!2sse"
   },
   {
     "name": "BGA Fotocenter",
     "url": "bgafotocenter.se/jonkoping/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.131202445141!2d14.170753799999991!3d57.78215059999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deacd7ecf71%3A0x6f29e1708679a94a!2sBGA%20Fotocenter!5e0!3m2!1sde!2sse!4v1709739820062!5m2!1sde!2sse"
   },
   {
     "name": "Bikupan",
     "url": "bikupan.org",
     "district": "Tändsticksområdet",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.9547713028064!2d14.157020599999997!3d57.7851453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de82dc1ffa9%3A0xffd8a2aad93df772!2sBikupan%20Ecological%20shop!5e0!3m2!1sde!2sse!4v1709739904355!5m2!1sde!2sse"
   },
   {
-    "name": "Blankdays",
+    "name": "Blankdays AB",
     "url": "https://blankdays.com/collections/all-products?gclid=CjwKCAjwov6hBhBsEiwAvrvN6EZZ1PsnlSJhnE7bmxINtl0Y0noU3rvCybdt217CGd3-bqMdx3mYRxoCK5EQAvD_BwE",
     "district": "Tändsticksområdet",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.974178011342!2d14.157671899999993!3d57.784815899999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dc3e1d6390b%3A0xd2f7e79aba813836!2sBlankdays%20AB!5e0!3m2!1sde!2sse!4v1709739965697!5m2!1sde!2sse"
   },
   {
     "name": "Boardlife",
     "url": "boardlife.se",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7231.17155504198!2d14.153581506042379!3d57.78127925484987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6debb58a018d%3A0x563e408cc2c07f65!2sBoardlife!5e0!3m2!1sde!2sse!4v1709740055235!5m2!1sde!2sse"
   },
   {
     "name": "Borgs skor",
     "url": "borgsskor.se/kontakt",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58303.981941199134!2d14.12542085175709!3d57.78155199618125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d89217faa93%3A0x1782d3fc367710f!2sBorgs%20skor%20i%20J%C3%B6nk%C3%B6ping!5e0!3m2!1sde!2sse!4v1709740133505!5m2!1sde!2sse"
   },
   {
     "name": "Boutique Lykka",
     "url": "boutiquelykka.se",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.130495483179!2d14.174937899999996!3d57.78216260000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6db12a456b47%3A0x7eba7e99193495f3!2sBoutique%20Lykka%20(Lykka%20Mode%20%26%20Interi%C3%B6r)!5e0!3m2!1sde!2sse!4v1709740169886!5m2!1sde!2sse"
   },
   {
     "name": "Broder Bläck",
     "url": "facebook.com/broderblacktatuering/",
-    "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "district": "Hovslätt",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10188.88436056464!2d14.105519446453544!3d57.731254819877705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d2ade4e2289%3A0x35d60c10558c7da2!2sBroder%20Bl%C3%A4ck%20Tatuering!5e0!3m2!1sde!2sse!4v1709740258415!5m2!1sde!2sse"
   },
   {
     "name": "Buketten",
     "url": "instagram.com/bukettenjonkoping/?hl=sv",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4191.5060067807135!2d14.171528519347914!3d57.78160858435824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d953f7a8273%3A0x556a39773d2aad1f!2sBuketten!5e0!3m2!1sde!2sse!4v1709740302013!5m2!1sde!2sse"
   },
   {
-    "name": "Busfrö Nytt & Bytt",
+    "name": "Busfrö Jönköping",
     "url": "busfro.se",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.69657838611!2d14.170007319219684!3d57.780935488533835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9515c41ba9%3A0x3563f794a2915ea4!2zQnVzZnLDtiBKw7Zua8O2cGluZw!5e0!3m2!1sde!2sse!4v1709740959843!5m2!1sde!2sse"
   },
   {
     "name": "Butiken Noga Utvalt",
     "url": "butikenjkpg.se",
     "district": "Atollen",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.2390307256546!2d14.171942499999993!3d57.78032030000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d94dd300001%3A0xc695ca14fca1f1f1!2sButiken%20Noga%20Utvalt!5e0!3m2!1sde!2sse!4v1709741050197!5m2!1sde!2sse"
   },
   {
     "name": "Carlings",
     "url": "carlings.com/sv/corporate/Butiker/sweden/58f/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17017.045000743034!2d14.155949439550795!3d57.7821604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6daefb0f469b%3A0x74a94e0d966af4c0!2sCarlings!5e0!3m2!1sde!2sse!4v1709741135495!5m2!1sde!2sse"
   },
   {
     "name": "Casa Souk",
     "url": "casasouk.se",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1390379339527!2d14.162959499999994!3d57.78201759999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6df66e0c0939%3A0xd7880285ea59b7b9!2sCasa%20Souk!5e0!3m2!1sde!2sse!4v1709741178902!5m2!1sde!2sse"
   },
   {
     "name": "Cervera",
     "url": "cervera.se/hitta-butik/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34034.224606943244!2d14.162959499999994!3d57.78201759999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950b829479%3A0x1f1648a84baf0e57!2sCervera!5e0!3m2!1sde!2sse!4v1709741222766!5m2!1sde!2sse"
   },
   {
     "name": "Clas Ohlson",
     "url": "clasohlson.com/se/store-finder?q=J%C3%B6nk%C3%B6ping,%20City&latitude=57.78252&longitude=14.17347&source=search",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.1,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34034.224606943244!2d14.162959499999994!3d57.78201759999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956aa5b791%3A0xbadd71d40d44d145!2sClas%20Ohlson!5e0!3m2!1sde!2sse!4v1709741272950!5m2!1sde!2sse"
   },
   {
     "name": "Coop Atollen",
     "url": "coop.se/butiker-erbjudanden/coop/coop-atollen-jonkoping/",
     "district": "Atollen",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.2307653226326!2d14.173231699999997!3d57.7804606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d94e5ca700b%3A0xcd3656244ff1cc2!2sCoop!5e0!3m2!1sde!2sse!4v1709741317871!5m2!1sde!2sse"
   },
   {
     "name": "Coop Östra Torget",
     "url": "coop.se/butiker-erbjudanden/coop/coop-ostra-torget/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.1,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.2274839010747!2d14.180357099999993!3d57.78051629999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d967cbe51d7%3A0x55829d8f3d7cbc2c!2sCoop!5e0!3m2!1sde!2sse!4v1709741350976!5m2!1sde!2sse"
   },
   {
     "name": "Copenhagen Luxe",
     "url": "https://copenhagenluxe.dk/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1049446370416!2d14.171829700000002!3d57.782596299999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d926b792e1d%3A0xfb9578be312a15c6!2sCopenhagen%20Luxe%20J%C3%B6nk%C3%B6ping%20city!5e0!3m2!1sde!2sse!4v1709741415913!5m2!1sde!2sse"
   },
   {
-    "name": "Day fotografi",
+    "name": "Day Photo AB",
     "url": "dayfotografi.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.7,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7383.793741952483!2d14.165016404642678!3d57.78516796834236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43e9a4545bc0760b%3A0x3972392de9e65e48!2sDay%20Photo%20AB!5e0!3m2!1sde!2sse!4v1709741479842!5m2!1sde!2sse"
   },
   {
-    "name": "Dinos kemtvätt",
+    "name": "Dinos Kemtvätt & Textilservice",
     "url": "dinos.nu",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.16665646777!2d14.16287700000001!3d57.78154880000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6debcbec4475%3A0x297deda986513641!2sDinos%20Kemtv%C3%A4tt%20%26%20Textilservice!5e0!3m2!1sde!2sse!4v1709741546380!5m2!1sde!2sse"
   },
   {
     "name": "Din Sko",
     "url": "dinsko.se/stores",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.7,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34034.66650348432!2d14.16287700000001!3d57.78154880000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956aa5b791%3A0x8202632eb7d569a9!2sDinSko!5e0!3m2!1sde!2sse!4v1709741604004!5m2!1sde!2sse"
   },
   {
     "name": "Direkt optik",
     "url": "https://www.direktoptik.se/butiker/jonkoping/ostra-storgatan-29/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 3.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39823.88707144149!2d14.134089526232216!3d57.77386778101441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d423d5ffbed%3A0x41fb20cecf03eaf6!2sDirekt%20Optik!5e0!3m2!1sde!2sse!4v1709741653839!5m2!1sde!2sse"
   },
   {
     "name": "Dressman",
     "url": "dressmann.com/no/bedriftssider/finn-butikk/Sweden/Dressmann_Jonkoping/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8508.511330369154!2d14.1643642697754!3d57.7822078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d953fe4cc0b%3A0xe474399b51708d5b!2sDressmann%20Dressmann%20J%C3%B6nk%C3%B6ping%20City!5e0!3m2!1sde!2sse!4v1709741711739!5m2!1sde!2sse"
   },
   {
     "name": "Elias Urmästare",
     "url": "facebook.com/profile.php?id=100064073112753",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 3.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1738252403593!2d14.17002588385316!3d57.781427116078454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d63819caa4d%3A0xf33007c583bee06a!2sElias%20Urm%C3%A4stare!5e0!3m2!1sde!2sse!4v1709741757457!5m2!1sde!2sse"
   },
   {
     "name": "Engströms Urmakeri",
     "url": "engstromsurmakeri.se",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.5,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.106111129789!2d14.172549999999989!3d57.78257650000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea2fe28b35%3A0xaa34ffac9d9c5868!2sEngstr%C3%B6ms%20Urmakeri%20-%20Officiell%20Rolex-%C3%85terf%C3%B6rs%C3%A4ljare!5e0!3m2!1sde!2sse!4v1709741822783!5m2!1sde!2sse"
   },
   {
-    "name": "Euroex",
+    "name": "Euroex Exchange",
     "url": null,
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Väster",
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.069849582382!2d14.163962299999994!3d57.783192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea3c0933df%3A0xca65d2764b9c4064!2sEuroex%20Exchange!5e0!3m2!1sde!2sse!4v1709741889685!5m2!1sde!2sse"
   },
   {
     "name": "Evoke industry",
     "url": null,
-    "district": null,
+    "district": "Väster",
     "rating": null,
-    "mapsurl": null
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.069849582382!2d14.163962299999994!3d57.783192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dc744dcf935%3A0xe83011f5611ed7fa!2sEvoke%20Industry%20-%20Fotograf!5e0!3m2!1sde!2sse!4v1709741951905!5m2!1sde!2sse"
   },
   {
     "name": "Fabriken",
     "url": "butikfabriken.se",
     "district": "Atollen",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8508.279398329529!2d14.163962299999994!3d57.783192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9510f730c1%3A0xeeb44cbcf4d5d726!2sFabriken!5e0!3m2!1sde!2sse!4v1709742011353!5m2!1sde!2sse"
   },
   {
     "name": "Fiction Prescription",
     "url": "https://www.instagram.com/fiction.prescription.jonkoping/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.17456849164!2d14.173481499999996!3d57.7814145!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dd510386499%3A0xedec24737e486fa9!2sFiction%20Prescription!5e0!3m2!1sde!2sse!4v1709742054515!5m2!1sde!2sse"
   },
   {
     "name": "Forex Bank Väster",
-    "url": null,
+    "url": "https://www.forex.se/hitta-butik",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.0610360156616!2d14.164457399999991!3d57.783341600000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea15c0dc75%3A0x1f886ed90c69906a!2sFOREX!5e0!3m2!1sde!2sse!4v1709742104854!5m2!1sde!2sse"
   },
   {
     "name": "Foten",
     "url": "https://www.foten.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.135479563008!2d14.176513100000008!3d57.78207800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d96156af959%3A0x8a1527db415f3a82!2zRm90ZW4gaSBKw7Zua8O2cGluZw!5e0!3m2!1sde!2sse!4v1709742156702!5m2!1sde!2sse"
   },
   {
     "name": "Friendly Corner",
     "url": "https://friendlycorner.se/butiken",
     "district": "Tändsticksområdet",
     "rating": null,
-    "mapsurl": null
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.135479563008!2d14.176513100000008!3d57.78207800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d07f96fc45f%3A0x656adbf01731e81e!2sFriendly%20corner!5e0!3m2!1sde!2sse!4v1709742205742!5m2!1sde!2sse"
   },
   {
     "name": "Galleri 701 ramcenter",
     "url": "galleri701-ram.se",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.7,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.135479563008!2d14.176513100000008!3d57.78207800000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d960cff2705%3A0x30c3fc8ee248f193!2sGalleri%20701%20Ramcenter%20AB!5e0!3m2!1sde!2sse!4v1709742242448!5m2!1sde!2sse"
   },
   {
     "name": "Gant",
     "url": "gant.se/stores?lat=57.78261370000001&long=14.1617876&postalCode=j%C3%B6nk%C3%B6ping&radius=10.0",
     "district": "Atollen",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8508.972217738792!2d14.164414869775381!3d57.780252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9a452a3eaf%3A0x55e5eb0fd2db9f3a!2zR0FOVCBKw7Zua8O2cGluZw!5e0!3m2!1sde!2sse!4v1709742310547!5m2!1sde!2sse"
   },
   {
     "name": "Gåvan",
     "url": "gavanjonkoping.se",
-    "district": "Öster",
+    "district": "Atollen",
     "rating": null,
-    "mapsurl": null
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4356363.073767272!2d13.050428131250005!3d57.78216410000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d94df104ed3%3A0xc6261123029cc4f0!2zR8OldmFuIErDtm5rw7ZwaW5n!5e0!3m2!1sde!2sse!4v1709742370794!5m2!1sde!2sse"
   },
   {
     "name": "Gina Tricot",
     "url": "ginatricot.com/se/find-store",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.7,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4356363.073767272!2d13.050428131250005!3d57.78216410000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956a71ae75%3A0x8e8b11d6798cc0c0!2sGina%20Tricot!5e0!3m2!1sde!2sse!4v1709742464738!5m2!1sde!2sse"
   },
   {
     "name": "Go Banana",
     "url": "gobanana.se",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.185172823991!2d14.162415700000002!3d57.78123450000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6debc4dfe501%3A0x34986ca9eff01c0!2sGo%20Banana!5e0!3m2!1sde!2sse!4v1709742530827!5m2!1sde!2sse"
   },
   {
     "name": "Godis och Tobakshörnan",
     "url": null,
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1990998152555!2d14.157724400000008!3d57.7809981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de93ce22593%3A0xeb6c5285db22c36d!2sGodis%20Och%20Tobakhornan%20(%20puff%20puff%20pass%20J%C3%B6nk%C3%B6ping%20)!5e0!3m2!1sde!2sse!4v1709742590918!5m2!1sde!2sse"
   },
   {
     "name": "Golden athlete",
     "url": "goldenathlete.se/sv/butiker-2",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1990998152555!2d14.157724400000008!3d57.7809981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950b4885c5%3A0x878409a163ba1105!2sGolden%20Athlete%20butik!5e0!3m2!1sde!2sse!4v1709742634201!5m2!1sde!2sse"
   },
   {
     "name": "Grmawit Store",
     "url": "grmawit.com/",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.055757294962!2d14.164302599999985!3d57.783431199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deb36119473%3A0xa4a9d4a3d6136a9c!2sGrmawit!5e0!3m2!1sde!2sse!4v1709742674689!5m2!1sde!2sse"
   },
   {
     "name": "Guldsmedjan Snarberg",
     "url": "guldsmedjan-snarberg.se",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.111230733849!2d14.170580000000013!3d57.7824896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d3d8823ea73%3A0xfdcde45adda55824!2sGuldsmedjan%20Therese%20Snarberg!5e0!3m2!1sde!2sse!4v1709742723418!5m2!1sde!2sse" 
   },
   {
     "name": "Hälsokraft",
     "url": "halsokraft.se/butiker?butik=503",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.125234504995!2d14.174563699999997!3d57.78225189999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950d2c799d%3A0xc2af3e3e3534ebb5!2sH%C3%A4lsokraft%20Jonkoping!5e0!3m2!1sde!2sse!4v1709742770899!5m2!1sde!2sse"
   },
   {
     "name": "Hemköp",
     "url": "hemkop.se/butik/4674",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17016.742231418626!2d14.14567593955077!3d57.78280279999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dedd9839b6f%3A0xf7f81540bdb883d9!2zSGVta8O2cA!5e0!3m2!1sde!2sse!4v1709742814240!5m2!1sde!2sse"
   },
   {
     "name": "Hemmakväll",
     "url": "hemmakvall.se/hitta-butik/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8508.806862162157!2d14.164718469775394!3d57.780953700000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d967a506bc3%3A0xa31e51adff23577!2sHemmakv%C3%A4ll!5e0!3m2!1sde!2sse!4v1709742866893!5m2!1sde!2sse"
   },
   {
     "name": "Hemtex",
     "url": "hemtex.se/hitta-butik/jonkoping",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34035.22744864863!2d14.164718469775394!3d57.780953700000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950c010e13%3A0xb30b02824a221110!2sHemtex!5e0!3m2!1sde!2sse!4v1709742907600!5m2!1sde!2sse"
   },
   {
     "name": "Hi-fi Klubben",
     "url": "hifiklubben.se/hitta-butik/jonkoping/?gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4w2ngSDzygBKQSqHVzCSFAplyrpByCMojT6dfo-Xnjcn7P9j_jBn8aAsD0EALw_wcB",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.0615308954607!2d14.164586900000007!3d57.78333320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea135f3f0d%3A0xe8d2db12a5220f4e!2sHiFi%20Klubben%20J%C3%B6nk%C3%B6ping!5e0!3m2!1sde!2sse!4v1709742951369!5m2!1sde!2sse"
   },
   {
     "name": "H&M",
@@ -400,513 +393,457 @@
   },
   {
     "name": "H&M Home",
-    "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
+    "url": "https://www2.hm.com/sv_se/home.html",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8508.246123581843!2d14.164586900000007!3d57.78333320000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d399e751243%3A0x95b6a88862c1d1a4!2sH%26M%20HOME!5e0!3m2!1sde!2sse!4v1709743061317!5m2!1sde!2sse"
   },
   {
     "name": "Indiska",
     "url": "indiska.com/se/butiker",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1204389391905!2d14.1717544!3d57.78233330000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d953654f761%3A0x9fa246273e915351!2sIndiska!5e0!3m2!1sde!2sse!4v1709743129102!5m2!1sde!2sse"
   },
   {
     "name": "Jeansshoppen",
     "url": "jeansshopen.se/sv/kontakt",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1912526317383!2d14.17329620000001!3d57.781131300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956ca17291%3A0x14a89f2a9c0537fe!2sJeansshopen%20No%201%20AB!5e0!3m2!1sde!2sse!4v1709743180429!5m2!1sde!2sse"
   },
   {
     "name": "JL Sycenter",
     "url": "jlsycenter.se/kontakta-oss/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Väster",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1496659019595!2d14.161268699999997!3d57.78183720000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de9be69a63d%3A0x29bf050405205cf6!2sJL%20Sycenter!5e0!3m2!1sde!2sse!4v1709743238135!5m2!1sde!2sse"
   },
   {
     "name": "Jönköpings antik och konsthandel",
     "url": null,
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 2.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.121210707442!2d14.1587513!3d57.7823202!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de9099cbe05%3A0x76559f931c2dc7c0!2sJ%C3%B6nk%C3%B6pings%20antik%20o%20konsthandel!5e0!3m2!1sde!2sse!4v1709743294796!5m2!1sde!2sse"
   },
   {
     "name": "Jönköpings Cigrarrimport",
     "url": "atg.se/jonkopingscigarrimport",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 3.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.125805966481!2d14.174540299999999!3d57.7822422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95725b30c1%3A0xd91abc6cc712dc2d!2sJ%C3%B6nk%C3%B6pings%20Cigarrimport!5e0!3m2!1sde!2sse!4v1709743336597!5m2!1sde!2sse"
   },
   {
     "name": "KappAhl",
     "url": "www.kappahl.com/sv-SE/kundservice/kundservice/hitta-butik/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.1,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.118483006943!2d14.1734091!3d57.7823665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956aa5b791%3A0x3899d532826f8b09!2sKappAhl!5e0!3m2!1sde!2sse!4v1709743388582!5m2!1sde!2sse"
   },
   {
     "name": "Karin Lund Design",
     "url": "facebook.com/karinlunddesign/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Tändsticksområdet",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.937173234016!2d14.1557283!3d57.78544399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea2e87edd1%3A0x29eb3baf78600ebf!2sKarin%20Lund%20Design!5e0!3m2!1sde!2sse!4v1709743430431!5m2!1sde!2sse"
   },
   {
     "name": "Katrin Bååths Ateljé",
     "url": "https://katrinbaath.se/ateljen/",
     "district": "Tändsticksområdet",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.9964597011103!2d14.158409000000004!3d57.78443770000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d3d50631b83%3A0xb24b33ce5e4483a7!2zS2F0cmluIELDpcOldGgg4oCTIEF0ZWxqw6lu!5e0!3m2!1sde!2sse!4v1709743467549!5m2!1sde!2sse"
   },
   {
     "name": "Kicks",
     "url": "kicks.se/butiker/jonkoping-smedjegatan",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1388965417736!2d14.1746401!3d57.78201999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950c05675f%3A0x5edf639c18329853!2sKICKS!5e0!3m2!1sde!2sse!4v1709743502932!5m2!1sde!2sse"
   },
   {
     "name": "Kjell & Company",
     "url": "kjell.com/se/butiker/sodra-strandgatan-5",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.148970725097!2d14.170008999999993!3d57.781849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deacd7ecf71%3A0x57ad3445188d8c79!2sKjell%20%26%20Company!5e0!3m2!1sde!2sse!4v1709743564543!5m2!1sde!2sse"
   },
   {
     "name": "Klädscoopet",
     "url": "facebook.com/Kladscoopet/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.4,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.162161396137!2d14.177155000000006!3d57.78162510000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d97f1555555%3A0x1d2ca95575867442!2sKl%C3%A4dscoopet%20AB!5e0!3m2!1sde!2sse!4v1709743607587!5m2!1sde!2sse"
   },
   {
     "name": "KOiJ Konsthantverk",
     "url": "koij.se",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1491003343494!2d14.172566399999994!3d57.781846800000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95235bd2c7%3A0x250f309f1d01103a!2sKOiJ%20Konsthantverk!5e0!3m2!1sde!2sse!4v1709743648604!5m2!1sde!2sse"
   },
   {
     "name": "Kristina Brud & Fest",
     "url": "kristinabrud-fest.se",
-    "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.7,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.158697301663!2d14.177624900000009!3d57.78168389999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95c091dd57%3A0x9bba5f7781c5e18!2sKristina%20Brud%20%26%20Fest!5e0!3m2!1sde!2sse!4v1709743683583!5m2!1sde!2sse"
   },
   {
     "name": "Kronans Apotek Atollen",
     "url": "apoteksinfo.nu/apotek/kronans_apotek_atollen_j%C3%B6nk%C3%B6ping-1415",
     "district": "Atollen",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.222600058084!2d14.172796800000006!3d57.78059920000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d951a4dce7b%3A0x69e0ebf2ef7c956e!2sKronans%20Apotek%20J%C3%B6nk%C3%B6ping%20Atollen!5e0!3m2!1sde!2sse!4v1709743733350!5m2!1sde!2sse"
   },
   {
     "name": "Kvänum Kök",
     "url": "kvanum.com/se/showrooms/jonkoping/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.172806992178!2d14.175273700000005!3d57.7814444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95a7ea5d5d%3A0x23bdcf745626e7ca!2zS3bDpG51bSBKw7Zua8O2cGluZw!5e0!3m2!1sde!2sse!4v1709743772414!5m2!1sde!2sse"
   },
   {
     "name": "Lagerhaus",
     "url": "lagerhaus.se/stores",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1220413891756!2d14.172136900000012!3d57.7823061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d954b43bbc9%3A0xe68163715e0dba7f!2sLagerhaus!5e0!3m2!1sde!2sse!4v1709743816712!5m2!1sde!2sse"
   },
   {
     "name": "Lavér Studio",
     "url": "laverstudio.com/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Life Naturlig Hälsa",
-    "url": "https://www.lifebutiken.se/stores",
     "district": "Väster",
     "rating": null,
-    "mapsurl": null
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.0557690778264!2d14.164302900000003!3d57.78343099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6df18216cb73%3A0xc14f381964215424!2sLav%C3%A9r%20Studio%20Ab!5e0!3m2!1sde!2sse!4v1709743848093!5m2!1sde!2sse"
   },
   {
     "name": "Lilla Violen",
     "url": "lillaviolen.com/",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d531.7871764038134!2d14.162877400000003!3d57.78185349999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d6b449f1c2d%3A0x3fadcca5fb0b4b94!2sBarnbutiken%20Lilla%20violen!5e0!3m2!1sde!2sse!4v1709744024512!5m2!1sde!2sse"
   },
   {
     "name": "Lindex",
     "url": "lindex.com/se/hitta-din-butik?location=57.756066%2C14.188254&storeId=002&zoom=11",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Livspotential Kroppsterapi",
-    "url": "facebook.com/Livspotential/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.1,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.114465095686!2d14.172857699999993!3d57.78243470000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956aad9d75%3A0x94b12467049a6191!2sLindex!5e0!3m2!1sde!2sse!4v1709744062102!5m2!1sde!2sse"
   },
   {
     "name": "Lloyd Tabing Art Gallery",
     "url": "lloydtabingart.com/",
     "district": "Tändsticksområdet",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.937674016819!2d14.1563246!3d57.7854355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6f89afa131d9%3A0x9cadf7d8fe6a12b3!2sGalleri%20Lloyd%20Tabing!5e0!3m2!1sde!2sse!4v1709744179923!5m2!1sde!2sse"
   },
   {
     "name": "Macforum",
     "url": "macforum.se/butiker/forum-jonkoping",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.5,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.103418769881!2d14.171094199999999!3d57.7826222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d954b43bbc9%3A0xf73a41e6b42077a8!2sMacforum%20Apple%20Premium%20Reseller%20J%C3%B6nk%C3%B6ping!5e0!3m2!1sde!2sse!4v1709744217164!5m2!1sde!2sse"
   },
   {
     "name": "MarQet",
     "url": "mq.se/butiker/?gclid=Cj0KCQjwteOaBhDuARIsADBqRejM-U3YQY9vh4F6gSXC2LnJWPVGKJ7CGfiCl1tYkREGUR37cTWMNcoaAjFGEALw_wcB",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1264657982238!2d14.17406899999999!3d57.78223100000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956a50a083%3A0xd53281c7c49ddffc!2sMQ%20Marqet%20J%C3%B6nk%C3%B6ping%20%2C%20City!5e0!3m2!1sde!2sse!4v1709744257644!5m2!1sde!2sse"
   },
   {
-    "name": "Mimosa City",
-    "url": "mimosacity.se",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "name": "Mimosa Blommor",
+    "url": "mimosablommor.se",
+    "district": "Söder",
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.6671588018003!2d14.1527351!3d57.773052799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6df1b7d3487f%3A0x247a50676bebb928!2sMimosa%20Blommor%20i%20J%C3%B6nk%C3%B6ping%20AB!5e0!3m2!1sde!2sse!4v1709744335038!5m2!1sde!2sse"
   },
   {
     "name": "Moderna Smycken",
     "url": "klockorochsmycken.se/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.1,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.097686454232!2d14.1704331!3d57.7827195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d953995c77d%3A0x402dac95389546b8!2sModerna%20Smycken!5e0!3m2!1sde!2sse!4v1709744400473!5m2!1sde!2sse"
   },
   {
     "name": "Naturkompaniet",
     "url": "murphysbar.se/sv/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.124645369377!2d14.172734100000003!3d57.78226190000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d761cb1e3a7%3A0x3b874ed92f42e245!2sNaturkompaniet!5e0!3m2!1sde!2sse!4v1709744435344!5m2!1sde!2sse"
   },
   {
     "name": "Newhouse",
     "url": "newhouse.se/newhouse/vara-butiker",
     "district": "Atollen",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.5,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1602290443925!2d14.173883500000008!3d57.781657900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d951ae1f829%3A0xff1f9c914c8c1273!2sNewhouse!5e0!3m2!1sde!2sse!4v1709744475802!5m2!1sde!2sse"
   },
   {
     "name": "New Yorker",
     "url": "newyorker.de/se/stores/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.099936963265!2d14.1710215!3d57.7826813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deac9a20d39%3A0x6aa153ff8a2d10ab!2sNEW%20YORKER!5e0!3m2!1sde!2sse!4v1709744523982!5m2!1sde!2sse"
   },
   {
     "name": "Nilson Shoes",
-    "url": "dinsko.se/stores",
-    "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "url": "https://feetfirst.se/nilsonshoes",
+    "district": "Asecs",
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13125.562162513535!2d14.18730022201135!3d57.77217860074381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d761b635927%3A0x88f34db715d00aec!2sNilsons%20Sko!5e0!3m2!1sde!2sse!4v1709765177280!5m2!1sde!2sse"
   },
   {
     "name": "Noa Noa",
-    "url": "httpsfacebook.com/Noa-Noa-J%C3%B6nk%C3%B6ping-446212958766553/",
+    "url": "https://se.noanoa.com/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.0789085076995!2d14.169763877765257!3d57.78234071619671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9539bd9433%3A0xe9c22637e8f0c1dc!2sNoa%20Noa%20Sverige%20AB!5e0!3m2!1sde!2sse!4v1709765253278!5m2!1sde!2sse"
   },
   {
     "name": "Nordisk Möbelkonst",
     "url": "nordiskmobelkonst.se/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1457481667617!2d14.177103399999995!3d57.781903699999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95c3704eef%3A0xa6637803b7075c01!2z4oCLTm9yZGlzayBNw7ZiZWxrb25zdCBBQg!5e0!3m2!1sde!2sse!4v1709765295528!5m2!1sde!2sse"
   },
   {
     "name": "Normal",
     "url": "normal.se/hitta-butik/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34033.95963759602!2d14.138858779101549!3d57.78229869999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d558e95c82f%3A0xa4f1f06feff4d5cb!2sNORMAL%20J%C3%B6nk%C3%B6ping%20-%20%C3%96stra%20Storgatan!5e0!3m2!1sde!2sse!4v1709765342537!5m2!1sde!2sse"
   },
   {
     "name": "Nya Musik",
     "url": "nyamusik.se/",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.220673619396!2d14.1599744!3d57.7806319!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de95eaa7259%3A0x787720e378226fee!2sNya%20Musik!5e0!3m2!1sde!2sse!4v1709765377434!5m2!1sde!2sse"
   },
   {
     "name": "Once for girls",
     "url": "oncestore.se/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.194127577184!2d14.173158299999997!3d57.7810825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d951e870125%3A0xfa04cbb0e6a61b44!2sOnce%20For%20Girls!5e0!3m2!1sde!2sse!4v1709765406864!5m2!1sde!2sse"
   },
   {
     "name": "Önska",
     "url": "onska.se/vara-butiker/",
     "district": "Öster",
     "rating": null,
-    "mapsurl": null
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.13059563613!2d14.175068500000014!3d57.78216089999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d0382d6dac3%3A0x958fe535aa8f7efa!2zw5Zuc2th!5e0!3m2!1sde!2sse!4v1709765438039!5m2!1sde!2sse"
   },
   {
     "name": "Optiker Jahnke",
     "url": "jahnke.se/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1069535966176!2d14.170154799999992!3d57.782562199999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deac9b33105%3A0x1562b71c26481537!2sOptiker%20Jahnke!5e0!3m2!1sde!2sse!4v1709765476868!5m2!1sde!2sse"
   },
   {
     "name": "Optiker Ullström",
     "url": "optikerullstrom.se/",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.0926375339286!2d14.163625199999988!3d57.78280520000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea3c0dc98d%3A0xb4dfc055cae6b3aa!2sOptiker%20Ullstr%C3%B6m%20AB!5e0!3m2!1sde!2sse!4v1709765529823!5m2!1sde!2sse"
   },
   {
     "name": "Optik & Form",
     "url": "optikochform.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1433503935787!2d14.171886400000002!3d57.78194440000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d953b02ea0f%3A0x46021b1db6e66888!2sOptics%20%26%20Form!5e0!3m2!1sde!2sse!4v1709765567243!5m2!1sde!2sse"
   },
   {
     "name": "Partyland",
     "url": "partyland.party/butiker/",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.5,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.16665646777!2d14.16287700000001!3d57.78154880000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d705698ef41%3A0xccb3b286c0ff4343!2sPartyland!5e0!3m2!1sde!2sse!4v1709765607616!5m2!1sde!2sse"
   },
   {
     "name": "Planta Blommor",
     "url": "plantablommor.se/?gclid=Cj0KCQjwteOaBhDuARIsADBqRehsWXSRNHjeGnPn_AyambJZLmNntWxsMnUkANIHdme0NoDtc2Xi8mgaAicoEALw_wcB#.Y2p1tuzMLPZ",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.5,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.152882566614!2d14.162379199999998!3d57.7817826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6debd1fb2057%3A0x60a8d6dce32e8127!2sPlanta%20Blommor!5e0!3m2!1sde!2sse!4v1709765645653!5m2!1sde!2sse"
   },
   {
     "name": "Sarabello",
     "url": "facebook.com/people/SARABELLO/100054240470073/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.18524941076!2d14.173611799999996!3d57.7812332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95111d3479%3A0x3102938a5e7756df!2sSarabello%20AB!5e0!3m2!1sde!2sse!4v1709765678879!5m2!1sde!2sse"
   },
   {
     "name": "Saumas sko & nyckelservice",
     "url": "saumasskoochnyckelservice.heymo.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.154903290857!2d14.172433699999996!3d57.781748300000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6df58e32b95f%3A0x3208fe71391f1cac!2sSaumas%20sko%20%26%20nyckelservice%20(skomakeri)!5e0!3m2!1sde!2sse!4v1709765714226!5m2!1sde!2sse"
   },
   {
     "name": "Sjöqvists skomakeri",
     "url": "sjoqvistskomakeri.se/",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.190769546492!2d14.1571514!3d57.781139499999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de90f1dac03%3A0x221f1d7c00b1d5d2!2sSj%C3%B6qvist%20Skor!5e0!3m2!1sde!2sse!4v1709765750996!5m2!1sde!2sse"
   },
   {
     "name": "Smålands Skinnmanufaktur",
     "url": "smalandsskinnmanufaktur.se/",
     "district": "Tändsticksområdet",
     "rating": null,
-    "mapsurl": null
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2126.997196138244!2d14.158364399999995!3d57.7844252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de0eadd0ded%3A0x24bfd2968781c8ab!2sSSM%20STUDIO%2C%20Sm%C3%A5lands%20Skinnmanufaktur!5e0!3m2!1sde!2sse!4v1709765785462!5m2!1sde!2sse"
   },
   {
     "name": "Smarteyes",
     "url": "smarteyes.se/butiker/jonkoping",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.106264305587!2d14.1722441!3d57.782573899999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95487a0e53%3A0x6be3490cef4dbab2!2sSmarteyes!5e0!3m2!1sde!2sse!4v1709765825747!5m2!1sde!2sse"
   },
   {
     "name": "Sarabello",
     "url": "facebook.com/people/SARABELLO/100054240470073/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Saumas sko & nyckelservice",
-    "url": "saumasskoochnyckelservice.heymo.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Sjöqvists skomakeri",
-    "url": "sjoqvistskomakeri.se/",
-    "district": "Väster",
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Smålands Skinnmanufaktur",
-    "url": "smalandsskinnmanufaktur.se/",
-    "district": "Tändsticksområdet",
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Smarteyes",
-    "url": "smarteyes.se/butiker/jonkoping",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.18524941076!2d14.173611799999996!3d57.7812332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95111d3479%3A0x3102938a5e7756df!2sSarabello%20AB!5e0!3m2!1sde!2sse!4v1709765859895!5m2!1sde!2sse"
   },
   {
     "name": "Smycka Guld",
     "url": "smycka.se/store/19",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Smycket",
-    "url": "smycketjonkoping.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1148657086733!2d14.171122400000009!3d57.78242790000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9534f3cfab%3A0xda486f82c5998c7e!2sSmycka%20Guld!5e0!3m2!1sde!2sse!4v1709766003191!5m2!1sde!2sse"
   },
   {
     "name": "Specsavers",
     "url": "httpspecsavers.se/hitta-till-din-butik/jonkoping-city?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=jonkoping&y_source=1_NDA4Nzk2NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
-  },
-  {
-    "name": "Stagelight",
-    "url": "stagelight.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 3.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1347726016124!2d14.172756999999994!3d57.78209000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95c26ab18f%3A0xa28a0acc641be16a!2sSpecsavers%20J%C3%B6nk%C3%B6ping%20City!5e0!3m2!1sde!2sse!4v1709766154558!5m2!1sde!2sse"
   },
   {
     "name": "Stil",
     "url": "stilbutikerna.se/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.132168626339!2d14.172111599999997!3d57.78213420000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dbe25555555%3A0x5d3c9b03bcb739fd!2sStil!5e0!3m2!1sde!2sse!4v1709766298234!5m2!1sde!2sse"
   },
   {
     "name": "Story",
     "url": "storyjkpg.se",
     "district": "Atollen",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10721.005907100269!2d14.166058344425588!3d57.778994704039405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d79e2f4a767%3A0x9a3a864691297197!2sStory.!5e0!3m2!1sde!2sse!4v1709766367643!5m2!1sde!2sse"
   },
   {
     "name": "SunOff",
     "url": "sunoff.se/butiker/jonkoping?gclid=CjwKCAjw8JKbBhBYEiwAs3sxNy3EnUFGceeFxyJN35fymdpsg5qEWUTPj6Sx0TbNoLdwp8E6AI-I5xoC45gQAvD_BwE",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1641.2287313944248!2d14.1594739461159!3d57.7604359232361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d3e57d2db21%3A0x44a50c0fe9614128!2sSun%20Off%20J%C3%B6nk%C3%B6ping%20(F.d.%20Markismagasinet)!5e0!3m2!1sde!2sse!4v1709766470633!5m2!1sde!2sse"
   },
   {
     "name": "Synoptik",
     "url": "httpsynoptik.se/butiker/jonkoping/jonkoping-ostra-storgatan5?utm_campaign=gmb-website&utm_source=google&utm_medium=organic&utm_content=667-Jonkoping-Ostra-Storgatan-5",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7803.617248888971!2d14.164774453829217!3d57.77629525313633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9535d3128f%3A0x6aed82f966f201e!2sSynoptik!5e0!3m2!1sde!2sse!4v1709766519374!5m2!1sde!2sse"
   },
   {
     "name": "Synsam Jönköping Öster",
     "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-%C3%B6ster/128",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 2.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.1738816399975!2d14.171585389435108!3d57.78216785078495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950c05675f%3A0x8a9beebaca2eeb2c!2sSynsam!5e0!3m2!1sde!2sse!4v1709766579959!5m2!1sde!2sse"
   },
   {
     "name": "Synsam Jönköping Väster",
     "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-v%C3%A4ster/125",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 3.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13122.236048165261!2d14.151600319668386!3d57.78133120045218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea40d9dd2d%3A0x4a8bb427d842cbcf!2sSynsam!5e0!3m2!1sde!2sse!4v1709766620157!5m2!1sde!2sse"
   },
   {
     "name": "Systembolaget",
     "url": "systembolaget.se/butiker-ombud/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6753.493628047412!2d14.167233903359882!3d57.780692926461434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea25cc6987%3A0xb56c6a37f2da9dbb!2sSystembolaget!5e0!3m2!1sde!2sse!4v1709766683428!5m2!1sde!2sse"
   },
   {
     "name": "The Body Shop",
     "url": "thebodyshop.com/sv-se/store-details/jonkoping-smedjegatan/3801?utm_source=google&utm_medium=organic-local&utm_campaign=yext&utm_content=3801",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.2,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20832.51201710432!2d14.156750281839239!3d57.7774143906975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deacd7ecf71%3A0xfcb4c1676c4074af!2sThe%20Body%20Shop!5e0!3m2!1sde!2sse!4v1709766768076!5m2!1sde!2sse"
   },
   {
     "name": "Ticket",
     "url": "ticket.se/resebutiker/jonkoping.html",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Väster",
+    "rating": 4.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7364.7498032631!2d14.158552533680098!3d57.780631017263076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6dea684a6f5f%3A0xebe766143be03b3f!2sTicket%20Travel%20Agency!5e0!3m2!1sde!2sse!4v1709766833330!5m2!1sde!2sse"
   },
   {
     "name": "Twilfit",
     "url": "shop.change.com/sv-SE",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.7,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34035.53160997828!2d14.158552533680089!3d57.780631017263076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deacbae5fa9%3A0x73ef4959dabaf6c3!2sTwilfit%20-%20Jonkoping%20City!5e0!3m2!1sde!2sse!4v1709766876636!5m2!1sde!2sse"
   },
   {
     "name": "Ur & Penn",
     "url": "uropenn.se/hitta-butik/",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.1,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42884.76676385608!2d14.158017128150956!3d57.77836894592498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d956a71ae75%3A0xc166a0a45d27ecf0!2sUr%26Penn!5e0!3m2!1sde!2sse!4v1709766920978!5m2!1sde!2sse"
   },
   {
     "name": "Västanhem Butik",
     "url": "vastanhem.se",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.19791566893!2d14.1623708!3d57.7810182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deb0fffffff%3A0xb2732e5797b956a2!2sV%C3%A4stanhem!5e0!3m2!1sde!2sse!4v1709766949224!5m2!1sde!2sse"
   },
   {
     "name": "Västra klackbaren",
     "url": null,
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Väster",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4775.156317141268!2d14.163171972989012!3d57.78284352738099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d586e2bf5bd%3A0xc04208ce70720dca!2sV%C3%A4stra%20Klackbaren!5e0!3m2!1sde!2sse!4v1709766989345!5m2!1sde!2sse"
   },
   {
-    "name": "Vätterbygden Ankarbergs Begravningsbyrå",
-    "url": "ankarbergs.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "name": "Vätterbygden Ankarbergs Begravningstjänst",
+    "url": "https://www.ankarbergs.se/",
+    "district": "Väster",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7155.361171438022!2d14.159200014445052!3d57.779256661426096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6debc2b6dc2d%3A0xeba5a6674451b0c3!2sV%C3%A4tterbygden%20Ankarbergs%20Begravningstj%C3%A4nst!5e0!3m2!1sde!2sse!4v1709767082868!5m2!1sde!2sse"
   },
   {
     "name": "Vätterfisk",
     "url": "xn--vtterfisk-v2a.se/",
     "district": "Väster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 4.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.104060930243!2d14.161881600000005!3d57.782611300000035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6de97f955d2f%3A0xe1fcdb49f72d1af1!2sV%C3%A4tterfisk!5e0!3m2!1sde!2sse!4v1709767152553!5m2!1sde!2sse"
   },
   {
     "name": "Yxhage Lås och Larm",
     "url": "yxhage.se/",
-    "district": null,
-    "rating": null,
-    "mapsurl": null
+    "district": "Öster",
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.149848533156!2d14.177943200000001!3d57.781834100000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95ea6b73c5%3A0x939a56fcb6df300d!2sYxhage%20Lock%20%26%20Alarm%20Europe%20AB!5e0!3m2!1sde!2sse!4v1709767183788!5m2!1sde!2sse"
   },
   {
     "name": "Zephyr Tattoo Parlour",
     "url": "zephyrtattoo.se",
     "district": "Öster",
-    "rating": null,
-    "mapsurl": null
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d281.70577018113806!2d14.177004884258467!3d57.78168597267692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d95bf156ab3%3A0xb5a915394fe22214!2zw5ZzdHJhIFN0b3JnYXRhbiA0MiwgNTUzIDIxIErDtm5rw7ZwaW5n!5e0!3m2!1sde!2sse!4v1709767469927!5m2!1sde!2sse"
   }
   ]
