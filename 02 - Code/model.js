@@ -26,7 +26,7 @@ class ModelClass {
         name text not null,
         url text,
         district text,
-        rating integer,
+        rating float,
         mapsurl text,
         CONSTRAINT stores_pkey PRIMARY KEY (id)
     )`);
