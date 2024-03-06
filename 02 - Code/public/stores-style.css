@@ -118,6 +118,7 @@ body {
 
 .store-nav > div {
     flex: 1;
+    font-size: 3vh;
 }
 
 .store-nav > div:first-child {
@@ -169,3 +170,66 @@ body {
     height: 30vh;
     width: auto;
 }
+
+.primary-navigation {
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 3vh;
+}
+
+.primary-navigation ul {
+    list-style: none; /* Remove default list style */
+}
+
+.primary-navigation ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    display: none;
+    background: white;
+    list-style: none;
+}
+
+.primary-navigation ul li:hover > ul,
+.primary-navigation ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    min-width: 250px;
+    text-align: left;
+    padding-top: 20px;
+    box-shadow: 0px 3px 5px -1px #ccc;
+}
+
+.primary-navigation ul li ul li {
+    clear: both;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: none;
+    font-size: 2vh;
+}
+
+.primary-navigation ul li ul li a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Keep default color */
+}
+
+.primary-navigation ul li ul li a:hover {
+    padding-left: 10px; /* Add padding on hover */
+    border-left: 2px solid #edae49; /* Add border on hover */
+    transition: all 0.3s ease; /* Add transition effect */
+    color: #003d8f; /* Change color on hover */
+}
+
+.primary-navigation ul li > a {
+    text-decoration: none; /* Remove underline */
+    color: black; /* Keep default color */
+}
+
+.primary-navigation ul li > a:hover {
+    color: #3ca0e7; /* Change color on hover */
+}
+

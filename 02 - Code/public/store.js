@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     fetchStores();
+
 });
 
 function fetchStores() {
@@ -59,3 +60,8 @@ function showLocation(mapsurl) {
     var newSrc = mapsurl;
     iframe.src = newSrc;
 }
+
+function addButtons() {
+    
+}
+
