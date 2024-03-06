@@ -3,697 +3,910 @@
     "name": "Åhlens",
     "url": "ahlens.se/varuhus/jonkoping?utm_source=google&utm_medium=organic&utm_campaign=business_profile&utm_content=website_link",
     "district": "Öster",
-    "rating": 2,
-    "mapsUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17019.978968306354!2d14.149222393900057!3d57.77593502708204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950c05675f%3A0xaafa9589594d9afb!2zw4VobMOpbnM!5e0!3m2!1sde!2sse!4v1709644974547!5m2!1sde!2sse"
+    "rating": 3.9,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17019.978968306354!2d14.149222393900057!3d57.77593502708204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d950c05675f%3A0xaafa9589594d9afb!2zw4VobMOpbnM!5e0!3m2!1sde!2sse!4v1709644974547!5m2!1sde!2sse"
   },
   {
     "name": "Akademibokhandeln",
     "url": "akademibokhandeln.se/butik/jonkoping-c",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": 4.3,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d272326.3446339278!2d13.938340373095214!3d57.77504897814822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d9515c41ba9%3A0x2f21eb73bd760313!2sAkademibokhandeln!5e0!3m2!1sde!2sse!4v1709737955253!5m2!1sde!2sse"
   },
   {
-    "name": "Apoteket AB",
+    "name": "Apoteket Östra Storgatan",
     "url": "apoteket.se/apotek/apoteket-ostra-storgatan-jonkoping/",
-    "district": null
+    "district": "Öster",
+    "rating": 3.6,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34033.77931469383!2d14.141566062318205!3d57.782489999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d954b43bbc9%3A0x72a0d863d8084287!2sApoteket%20%C3%96stra%20Storgatan!5e0!3m2!1sde!2sse!4v1709738126653!5m2!1sde!2sse"
   },
   {
     "name": "Apotek Hjärtat",
     "url": "apotekhjartat.se/hitta-apotek-hjartat/jonkoping/apotek_hjartat_smedjegatan_2_jonkoping/",
-    "district": null
+    "district": "Öster",
+    "rating": 4.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.116320876187!2d14.167992817443858!3d57.782403200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6deacd7ecf71%3A0x6b407d42bf1666a8!2sICA%20Heart%20Pharmacy!5e0!3m2!1sde!2sse!4v1709738284655!5m2!1sde!2sse"
   },
   {
-    "name": "Ashur Brud & Fest - Skrädderi",
+    "name": "Ashuraita Brud & Fest - Skrädderi",
     "url": "facebook.com/AshuraitaBrudFest/",
-    "district": null
+    "district": "Väster",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9954.559841740755!2d14.149292409584444!3d57.78244375858436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d8099aa2aad%3A0xaa96d8a90a64d9e!2sAshuraita%20Brud%20%26%20Fest%20-%20Skr%C3%A4dderi!5e0!3m2!1sde!2sse!4v1709738429160!5m2!1sde!2sse"
   },
   {
-    "name": "Asia livs, servicebutik",
+    "name": "Asia livs",
     "url": "facebook.com/profile.php?id=100051215441977",
-    "district": null
+    "district": "Öster",
+    "rating": 3.8,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2127.1822978737405!2d14.18562380000001!3d57.78128329999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a6d97c5a58757%3A0x803a68f0fa067dc7!2sAsia%20Livs!5e0!3m2!1sde!2sse!4v1709738636784!5m2!1sde!2sse"
   },
   {
-    "name": "Ateljé Creativ i Jönköping/Finrummet",
+    "name": "Finrummet i Jönköping",
     "url": "/finrummet.net",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": 5.0,
+    "mapsurl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1063.5544105812335!2d14.162556100000014!3d57.782530500000014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465a40130f476d6b%3A0x5819e5c860f4dea3!2sFinrummet%20i%20J%C3%B6nk%C3%B6ping!5e0!3m2!1sde!2sse!4v1709739371608!5m2!1sde!2sse"
   },
   {
     "name": "Ateljé KEG",
     "url": "ateljekeg.se",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Atlantis Dive College",
     "url": "atlantis.se",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Bagelle väskboutique",
     "url": null,
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Balance Ljud och Bild",
     "url": "balance.se",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "BGA Fotocenter",
     "url": "bgafotocenter.se/jonkoping/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Bikupan",
     "url": "bikupan.org",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Blankdays",
     "url": "https://blankdays.com/collections/all-products?gclid=CjwKCAjwov6hBhBsEiwAvrvN6EZZ1PsnlSJhnE7bmxINtl0Y0noU3rvCybdt217CGd3-bqMdx3mYRxoCK5EQAvD_BwE",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Boardlife",
     "url": "boardlife.se",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Borgs skor",
     "url": "borgsskor.se/kontakt",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Boutique Lykka",
     "url": "boutiquelykka.se",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Broder Bläck",
     "url": "facebook.com/broderblacktatuering/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Buketten",
     "url": "instagram.com/bukettenjonkoping/?hl=sv",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Busfrö Nytt & Bytt",
     "url": "busfro.se",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Butiken Noga Utvalt",
     "url": "butikenjkpg.se",
-    "district": "Atollen"
+    "district": "Atollen",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Carlings",
     "url": "carlings.com/sv/corporate/Butiker/sweden/58f/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Casa Souk",
     "url": "casasouk.se",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Cervera",
     "url": "cervera.se/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Clas Ohlson",
     "url": "clasohlson.com/se/store-finder?q=J%C3%B6nk%C3%B6ping,%20City&latitude=57.78252&longitude=14.17347&source=search",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Coop Atollen",
     "url": "coop.se/butiker-erbjudanden/coop/coop-atollen-jonkoping/",
-    "district": "Atollen"
+    "district": "Atollen",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Coop Östra Torget",
     "url": "coop.se/butiker-erbjudanden/coop/coop-ostra-torget/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Copenhagen Luxe",
     "url": "https://copenhagenluxe.dk/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Day fotografi",
     "url": "dayfotografi.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Dinos kemtvätt",
     "url": "dinos.nu",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Din Sko",
     "url": "dinsko.se/stores",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Direkt optik",
     "url": "https://www.direktoptik.se/butiker/jonkoping/ostra-storgatan-29/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Dressman",
     "url": "dressmann.com/no/bedriftssider/finn-butikk/Sweden/Dressmann_Jonkoping/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Elias Urmästare",
     "url": "facebook.com/profile.php?id=100064073112753",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Engströms Urmakeri",
     "url": "engstromsurmakeri.se",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Euroex",
     "url": null,
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Evoke industry",
     "url": null,
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Fabriken",
     "url": "butikfabriken.se",
-    "district": "Atollen"
+    "district": "Atollen",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Fiction Prescription",
     "url": "https://www.instagram.com/fiction.prescription.jonkoping/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Forex Bank Väster",
     "url": null,
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Foten",
     "url": "https://www.foten.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Friendly Corner",
     "url": "https://friendlycorner.se/butiken",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Galleri 701 ramcenter",
     "url": "galleri701-ram.se",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Gant",
     "url": "gant.se/stores?lat=57.78261370000001&long=14.1617876&postalCode=j%C3%B6nk%C3%B6ping&radius=10.0",
-    "district": "Atollen"
+    "district": "Atollen",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Gåvan",
     "url": "gavanjonkoping.se",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Gina Tricot",
     "url": "ginatricot.com/se/find-store",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Go Banana",
     "url": "gobanana.se",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Godis och Tobakshörnan",
     "url": null,
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Golden athlete",
     "url": "goldenathlete.se/sv/butiker-2",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Grmawit Store",
     "url": "grmawit.com/",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Guldsmedjan Snarberg",
     "url": "guldsmedjan-snarberg.se",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Hälsokraft",
     "url": "halsokraft.se/butiker?butik=503",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Hemköp",
     "url": "hemkop.se/butik/4674",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Hemmakväll",
     "url": "hemmakvall.se/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Hemtex",
     "url": "hemtex.se/hitta-butik/jonkoping",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Hi-fi Klubben",
     "url": "hifiklubben.se/hitta-butik/jonkoping/?gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4w2ngSDzygBKQSqHVzCSFAplyrpByCMojT6dfo-Xnjcn7P9j_jBn8aAsD0EALw_wcB",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "H&M",
     "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "H&M Home",
     "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Indiska",
     "url": "indiska.com/se/butiker",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Jeansshoppen",
     "url": "jeansshopen.se/sv/kontakt",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "JL Sycenter",
     "url": "jlsycenter.se/kontakta-oss/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Jönköpings antik och konsthandel",
     "url": null,
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Jönköpings Cigrarrimport",
     "url": "atg.se/jonkopingscigarrimport",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "KappAhl",
     "url": "www.kappahl.com/sv-SE/kundservice/kundservice/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Karin Lund Design",
     "url": "facebook.com/karinlunddesign/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Katrin Bååths Ateljé",
     "url": "https://katrinbaath.se/ateljen/",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Kicks",
     "url": "kicks.se/butiker/jonkoping-smedjegatan",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Kjell & Company",
     "url": "kjell.com/se/butiker/sodra-strandgatan-5",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Klädscoopet",
     "url": "facebook.com/Kladscoopet/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "KOiJ Konsthantverk",
     "url": "koij.se",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Kristina Brud & Fest",
     "url": "kristinabrud-fest.se",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Kronans Apotek Atollen",
     "url": "apoteksinfo.nu/apotek/kronans_apotek_atollen_j%C3%B6nk%C3%B6ping-1415",
-    "district": "Atollen"
+    "district": "Atollen",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Kvänum Kök",
     "url": "kvanum.com/se/showrooms/jonkoping/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Lagerhaus",
     "url": "lagerhaus.se/stores",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Lavér Studio",
     "url": "laverstudio.com/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Life Naturlig Hälsa",
     "url": "https://www.lifebutiken.se/stores",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Lilla Violen",
     "url": "lillaviolen.com/",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Lindex",
     "url": "lindex.com/se/hitta-din-butik?location=57.756066%2C14.188254&storeId=002&zoom=11",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Livspotential Kroppsterapi",
     "url": "facebook.com/Livspotential/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Lloyd Tabing Art Gallery",
     "url": "lloydtabingart.com/",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Macforum",
     "url": "macforum.se/butiker/forum-jonkoping",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "MarQet",
     "url": "mq.se/butiker/?gclid=Cj0KCQjwteOaBhDuARIsADBqRejM-U3YQY9vh4F6gSXC2LnJWPVGKJ7CGfiCl1tYkREGUR37cTWMNcoaAjFGEALw_wcB",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Mimosa City",
     "url": "mimosacity.se",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Moderna Smycken",
     "url": "klockorochsmycken.se/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Naturkompaniet",
     "url": "murphysbar.se/sv/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Newhouse",
     "url": "newhouse.se/newhouse/vara-butiker",
-    "district": "Atollen"
+    "district": "Atollen",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "New Yorker",
     "url": "newyorker.de/se/stores/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Nilson Shoes",
     "url": "dinsko.se/stores",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Noa Noa",
     "url": "httpsfacebook.com/Noa-Noa-J%C3%B6nk%C3%B6ping-446212958766553/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Nordisk Möbelkonst",
     "url": "nordiskmobelkonst.se/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Normal",
     "url": "normal.se/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Nya Musik",
     "url": "nyamusik.se/",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Once for girls",
     "url": "oncestore.se/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Önska",
     "url": "onska.se/vara-butiker/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Optiker Jahnke",
     "url": "jahnke.se/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Optiker Ullström",
     "url": "optikerullstrom.se/",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Optik & Form",
     "url": "optikochform.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Partyland",
     "url": "partyland.party/butiker/",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Planta Blommor",
     "url": "plantablommor.se/?gclid=Cj0KCQjwteOaBhDuARIsADBqRehsWXSRNHjeGnPn_AyambJZLmNntWxsMnUkANIHdme0NoDtc2Xi8mgaAicoEALw_wcB#.Y2p1tuzMLPZ",
-    "district": "Väster"
-  },
-  {
-    "name": "Pleasure erotic shop",
-    "url": "pleasureeroticshop.se/",
-    "district": "Väster"
-  },
-  {
-    "name": "PMU Second Hand Jönköping City",
-    "url": "pmu.se/stores/jonkopingcity/",
-    "district": "Öster"
-  },
-  {
-    "name": "Pressbyrån Östra storgatan",
-    "url": "pressbyran.se/kontakt/hitta-butik/",
-    "district": "Öster"
-  },
-  {
-    "name": "Pressbyrån Resecentrum",
-    "url": "pressbyran.se/kontakt/hitta-butik/",
-    "district": "Resecentrum"
-  },
-  {
-    "name": "Pressbyrån Väster",
-    "url": "pressbyran.se/kontakt/hitta-butik/",
-    "district": "Väster"
-  },
-  {
-    "name": "Rabalder",
-    "url": "publik.rabalder.se/butiker/joenkoeping.aspx",
-    "district": "Öster"
-  },
-  {
-    "name": "Resehuset",
-    "url": "resehuset.se/",
-    "district": "Väster"
-  },
-  {
-    "name": "Rituals",
-    "url": "rituals.com/sv-se/store-detail?store=J%C3%B6nk%C3%B6ping-%C3%96stra-Storgatan",
-    "district": "Öster"
-  },
-  {
-    "name": "Rizzo",
-    "url": "rizzo.se/stores/",
-    "district": "Öster"
-  },
-  {
-    "name": "Röda Korset Second Hand ",
-    "url": "rodakorset.se/vad-vi-gor/second-hand/butiker/roda-korset-secondhand-jonkoping/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZvHzKjPuEJP8mzdhkuZYuEUoinVduEX8lEL6C0cnHq-JkG5o4XalYBoCwX8QAvD_BwE",
-    "district": "Väster"
-  },
-  {
-    "name": "Rundquist & Zälle",
-    "url": "rundquist-zalle.com",
-    "district": "Väster"
-  },
-  {
-    "name": "Säfvers Tobak",
-    "url": "facebook.com/people/S%C3%A4fvers-tobak/100049803762896/",
-    "district": null
-  },
-  {
-    "name": "SåIniNordeN",
-    "url": "saininorden.se/",
-    "district": "Öster"
-  },
-  {
-    "name": "Sandströms",
-    "url": "sandstroms.nu/butiker/sandstroms-jonkoping",
-    "district": "Öster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Sarabello",
     "url": "facebook.com/people/SARABELLO/100054240470073/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Saumas sko & nyckelservice",
     "url": "saumasskoochnyckelservice.heymo.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Sjöqvists skomakeri",
     "url": "sjoqvistskomakeri.se/",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Smålands Skinnmanufaktur",
     "url": "smalandsskinnmanufaktur.se/",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Smarteyes",
     "url": "smarteyes.se/butiker/jonkoping",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
+  },
+  {
+    "name": "Sarabello",
+    "url": "facebook.com/people/SARABELLO/100054240470073/",
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
+  },
+  {
+    "name": "Saumas sko & nyckelservice",
+    "url": "saumasskoochnyckelservice.heymo.se/",
+    "district": null,
+    "rating": null,
+    "mapsurl": null
+  },
+  {
+    "name": "Sjöqvists skomakeri",
+    "url": "sjoqvistskomakeri.se/",
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
+  },
+  {
+    "name": "Smålands Skinnmanufaktur",
+    "url": "smalandsskinnmanufaktur.se/",
+    "district": "Tändsticksområdet",
+    "rating": null,
+    "mapsurl": null
+  },
+  {
+    "name": "Smarteyes",
+    "url": "smarteyes.se/butiker/jonkoping",
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Smycka Guld",
     "url": "smycka.se/store/19",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Smycket",
     "url": "smycketjonkoping.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Specsavers",
     "url": "httpspecsavers.se/hitta-till-din-butik/jonkoping-city?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=jonkoping&y_source=1_NDA4Nzk2NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Stagelight",
     "url": "stagelight.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Stil",
     "url": "stilbutikerna.se/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Story",
     "url": "storyjkpg.se",
-    "district": "Atollen"
+    "district": "Atollen",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "SunOff",
     "url": "sunoff.se/butiker/jonkoping?gclid=CjwKCAjw8JKbBhBYEiwAs3sxNy3EnUFGceeFxyJN35fymdpsg5qEWUTPj6Sx0TbNoLdwp8E6AI-I5xoC45gQAvD_BwE",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Synoptik",
     "url": "httpsynoptik.se/butiker/jonkoping/jonkoping-ostra-storgatan5?utm_campaign=gmb-website&utm_source=google&utm_medium=organic&utm_content=667-Jonkoping-Ostra-Storgatan-5",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Synsam Jönköping Öster",
     "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-%C3%B6ster/128",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Synsam Jönköping Väster",
     "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-v%C3%A4ster/125",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Systembolaget",
     "url": "systembolaget.se/butiker-ombud/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "The Body Shop",
     "url": "thebodyshop.com/sv-se/store-details/jonkoping-smedjegatan/3801?utm_source=google&utm_medium=organic-local&utm_campaign=yext&utm_content=3801",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Ticket",
     "url": "ticket.se/resebutiker/jonkoping.html",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Twilfit",
     "url": "shop.change.com/sv-SE",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Ur & Penn",
     "url": "uropenn.se/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Västanhem Butik",
     "url": "vastanhem.se",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Västra klackbaren",
     "url": null,
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Vätterbygden Ankarbergs Begravningsbyrå",
     "url": "ankarbergs.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Vätterfisk",
     "url": "xn--vtterfisk-v2a.se/",
-    "district": "Väster"
+    "district": "Väster",
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Yxhage Lås och Larm",
     "url": "yxhage.se/",
-    "district": null
+    "district": null,
+    "rating": null,
+    "mapsurl": null
   },
   {
     "name": "Zephyr Tattoo Parlour",
     "url": "zephyrtattoo.se",
-    "district": "Öster"
+    "district": "Öster",
+    "rating": null,
+    "mapsurl": null
   }
-]
+  ]
