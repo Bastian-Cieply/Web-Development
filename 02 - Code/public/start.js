@@ -19,6 +19,7 @@ window.onload = function randomText() {
       "Wow!",
       "In color!",
       "Now with more ducks!",
+      "Vättern dass!",
       ""
     ];
 

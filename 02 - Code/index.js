@@ -1,6 +1,6 @@
 require('dotenv').config();
 
-const path = require('path'); // Importieren Sie das 'path' Modul
+const path = require('path');
 const cookieParser = require('cookie-parser');
 const express = require('express');
 const app = express();
