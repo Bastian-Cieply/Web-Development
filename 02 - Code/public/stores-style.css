@@ -120,19 +120,20 @@ body {
 
 .store-item {
     display: grid;
-    grid-template-columns: 7vw 13.5vw 7vw; /* Adjust column widths as needed */
+    grid-template-columns: 6vw 14vw 6vw; /* Adjust column widths as needed */
     grid-template-rows: auto auto auto;
     grid-template-areas:
         'edit name delete'
         'address website rating';
     gap: 5px; /* Adjust the gap between grid items as needed */
     height: auto; /* Adjust the height as needed */
-    width: 27.5vw;
+    width: 26vw;
     background-color: #edae49;
-    margin: 1.5vh;
-    margin-right: 5vh;
-    margin-left: 5vh;
-    padding: 10px;
+    margin-top: 1.5vh;
+    margin-bottom: 0.5vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
+    padding: 1vw;
     text-align: center;
     cursor: pointer;
     border-radius: 2vh;

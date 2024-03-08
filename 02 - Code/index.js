@@ -69,18 +69,16 @@ app.get('/edit-store', async (req, res) => {
   }
 });
 
-app.get('/login', async (req, res) => {
+app.get('/api/login', async (req, res) => {
   const { email, password } = req.query;
   const status = await Model.userLogin(email, password);
   if  (status) {
     res.cookie('session', 'my-session-cookie', { httpOnly: true});
-    res.json({ message: "Login successful" });
-  } else {
-    res.status(401).json({ message: "Login failed" });
   }
+  res.json(status);
 });
 
-app.get('/user-logged-in', async(req, res) => {
+app.get('/api/user-logged-in', async(req, res) => {
   if (req.cookies.session === 'my-session-cookie') {
     res.send({ message: "User is logged in" });
   } else {
@@ -88,7 +86,12 @@ app.get('/user-logged-in', async(req, res) => {
   }
 });
 
-app.get('/register', async (req, res) => {
+app.get('/api/logout', (req, res) => {
+  res.clearCookie('session');
+  res.send({ message: "User logged out" });
+});
+
+app.get('/api/register', async (req, res) => {
   const { email, password } = req.query;
   const status = await Model.registerUser(email, password);
   if (status.status === 'Success') {
