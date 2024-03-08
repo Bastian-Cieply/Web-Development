@@ -57,7 +57,7 @@ class ModelClass {
         id SERIAL,
         email text UNIQUE,
         salt text,
-        password text,
+        password text not null,
         CONSTRAINT user_pkey PRIMARY KEY (id)
     )`);
 
@@ -169,7 +169,7 @@ class ModelClass {
         .digest('hex');
 
       if (hashedPassword === user.password) {
-        return true;
+        return { status: 'Success', message: 'User logged in successfully' };
       } else {
         return false;
       }
