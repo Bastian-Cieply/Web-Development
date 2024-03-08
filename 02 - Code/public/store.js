@@ -1,5 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     fetchStores();
+    if (document.cookie.includes('session=my-session-cookie')) {
+        const storeNav = document.querySelector('.store-nav');
+        const addButton = document.createElement('div');
+        addButton.classList.add('add');
+        addbuttonHTML = `<a href=""> Add </a>`;
+        addButton.innerHTML = addbuttonHTML;
+        storeNav.appendChild(addButton);
+    }
 });
 
 function fetchStores() {
@@ -19,24 +27,28 @@ function addStoreToDOM(store) {
     const storeItem = document.createElement('div');
     storeItem.classList.add('store-item');
 
-    let storeHTML = `<h3>${store.name}</h3>`;
-
-    console.log('Map URL:', store.mapsurl);
+    if (document.cookie.includes('session=my-session-cookie')) {
+        storeHTML = `<div class="edit"><a href="">Edit</a></div>
+        <div class="name">${store.name}</div><div class="delete"><a href="">Delete</a></div>`;
+    } else {
+        storeHTML = `<div class="edit"></div>
+        <div class="name">${store.name}</div><div class="delete"></div>`;
+    }
 
     if (store.mapsurl !== null) {
         storeItem.setAttribute('onclick', `showLocation('${store.mapsurl}')`);
     } 
 
     if (store.district !== null) {
-        storeHTML += `<p>District: ${store.district}</p>`;
-    }
-
-    if (store.rating !== null) {
-        storeHTML += `<p>Rating: ${store.rating}/5</p>`;
+        storeHTML += `<div class="address">District: ${store.district}</div>`;
     }
 
     if (store.url !== null) {
-        storeHTML += `<a href="https://${store.url}">Website</a>`;
+        storeHTML += `<div class="website"><a href="https://${store.url}">Website</a></div>`;
+    }
+
+    if (store.rating !== null) {
+        storeHTML += `<div class="rating">Rating: ${store.rating}/5</div>`;
     }
 
     storeItem.innerHTML = storeHTML;
@@ -59,3 +71,4 @@ function showLocation(mapsurl) {
     var newSrc = mapsurl;
     iframe.src = newSrc;
 }
+
