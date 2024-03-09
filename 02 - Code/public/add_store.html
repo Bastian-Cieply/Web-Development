@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="add_store.js"></script>
+    <link rel="stylesheet" href="add_store_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Jkpg City - Add Stores</title>
+    <link rel="icon" type="image/png" href="images\flag.png">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Please input the information about your store</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="district">District:</label>
+        <input type="text" id="district" name="district" required>
+
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required>
+
+        <label for="rating">Rating: Number out of 5</label>
+        <input type="float" id="rating" name="rating" required>
+
+        <label for="mapsURL">Maps URL:</label>
+        <input type="text" id="mapsURL" name="mapsURL" required>
+        
+        <div class="buttons-container">
+            <button class="add-button">Add</button>
+            <button class="cancel-button" onclick="window.location.href='/stores'">Cancel</button>
+        </div>
+    </div>
+</body>
+</html>
