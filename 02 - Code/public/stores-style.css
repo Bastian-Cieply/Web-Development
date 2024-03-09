@@ -66,6 +66,27 @@ body {
     box-sizing: border-box;
 }
 
+.grid-item button {
+    width: 50%;
+    background-color: #edae49;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.grid-item button:hover {
+    background-color: #003d8f;
+}
+
+.grid-item p {
+    color: black; /* Beispieltextfarbe */
+    font-size: 100%; /* Beispiel Schriftgröße */
+}
+
 .main-section {
     display: flex;
     flex-direction: column;
@@ -180,6 +201,7 @@ body {
 }
 
 .grid-item {
+    width: 20vw;
     padding: 20px;
     text-align: center;
     border:#ffffff;

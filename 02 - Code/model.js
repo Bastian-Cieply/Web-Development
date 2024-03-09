@@ -22,13 +22,14 @@ class ModelClass {
     await this.connection.query(`
     CREATE TABLE IF NOT EXISTS public.stores
     (
-        id SERIAL,
-        name text not null,
-        url text,
-        district text,
-        rating float,
-        mapsurl text,
-        CONSTRAINT stores_pkey PRIMARY KEY (id)
+      id SERIAL,
+      name text not null,
+      url text,
+      district text,
+      rating float,
+      mapsurl text,
+      CONSTRAINT stores_pkey PRIMARY KEY (id),
+      CONSTRAINT unique_name_district UNIQUE (name, district)
     )`);
 
     await this.connection.query(`
@@ -55,7 +56,7 @@ class ModelClass {
     CREATE TABLE IF NOT EXISTS public.users
     (
         id SERIAL,
-        email text UNIQUE,
+        email text UNIQUE not null,
         salt text,
         password text not null,
         CONSTRAINT user_pkey PRIMARY KEY (id)
@@ -89,48 +90,48 @@ class ModelClass {
     return rows;
   }
 
-  async addStore(name, url, district, rating) {
+  async addStore(name, url, district, rating, mapsurl) {
     try {
       await this.connection.query(`
-        INSERT INTO stores (name, url, district, rating)
-        VALUES ($1, $2, $3, $4)
-      `, [name, url, district, rating]);
+        INSERT INTO stores (name, url, district, rating, mapsurl)
+        VALUES ($1, $2, $3, $4, $5)
+      `, [name, url, district, rating, mapsurl]);
       return { status: 'Success', message: 'Store added successfully' };
     } catch (error) {
       return { status: 'Error', message: error.message };
     }
   }
 
-  async deleteStore(name, url, district, rating) {
+  async deleteStore(id) {
     try {
       await this.connection.query(`
         DELETE FROM stores
-        WHERE name = $1 AND url = $2 AND district = $3 AND rating = $4
-      `, [name, url, district, rating]);
+        WHERE id = $1
+      `, [id]);
       return { status: 'Success', message: 'Store deleted successfully' };
     } catch (error) {
       return { status: 'Error', message: error.message };
     }
   }
 
-  async editStore(id, name, url, district, rating) {
+  async editStore(id, name, url, district, rating, mapsurl) {
     try {
       await this.connection.query(`
         UPDATE stores
-        SET name = $1, url = $2, district = $3, rating = $4
-        WHERE id = $5
-      `, [name, url, district, rating, id]);
+        SET name = $1, url = $2, district = $3, rating = $4, mapsurl = $5
+        WHERE id = $6
+      `, [name, url, district, rating, mapsurl, id]);
       return { status: 'Success', message: 'Store edited successfully' };
     } catch (error) {
       return { status: 'Error', message: error.message };
     }
   }
 
-  async getStoreID(name, url, district, rating) {
+  async getStoreID(name, district) {
     const { rows } = await this.connection.query(`
       SELECT id FROM stores
-      WHERE name = $1 AND url = $2 AND district = $3 AND rating = $4
-    `, [name, url, district, rating]);
+      WHERE name = $1 AND district = $2 
+    `, [name, district]);
     if (rows.length === 1) {
       return rows[0].id;
     } else {

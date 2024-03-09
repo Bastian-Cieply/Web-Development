@@ -68,6 +68,27 @@ body {
   box-sizing: border-box;
 }
 
+.sidebar button {
+  width: 50%;
+  background-color: #edae49;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar button:hover {
+  background-color: #003d8f;
+}
+
+.sidebar  p {
+  color: black; /* Beispieltextfarbe */
+  font-size: 100%; /* Beispiel Schriftgröße */
+}
+
 .grid-container {
   display: grid;
   position: absolute;
@@ -94,8 +115,10 @@ body {
 }
 
 .grid-item {
+  width: 20vw;
   padding: 20px;
   text-align: center;
+  border:#ffffff;
 }
 
 .sidebar.active {
@@ -153,10 +176,9 @@ body {
   align-items: center;
   font: 4em 'Raleway';
   background-color: #edae49;
-  /* Add styles for each section here */
 }
 
-button {
+.bottom button {
   --c:  #000000; /* the color*/
   
   box-shadow: 0 0 0 .1em inset var(--c); 
@@ -170,18 +192,20 @@ button {
   outline-offset: .1em;
   transition: background-size .4s, background-position 0s .4s;
 }
-button:hover {
+
+.bottom button:hover {
   --_p: 100%;
   transition: background-position .4s, background-size 0s;
   color: #fff;
 }
-button:active {
+
+.bottom button:active {
   box-shadow: 0 0 9e9q inset #000000; 
   background-color: var(--c);
   color: #fff;
 }
 
-button {
+.bottom button {
   font-family: system-ui, sans-serif;
   font-size: 3.5rem;
   cursor: pointer;
