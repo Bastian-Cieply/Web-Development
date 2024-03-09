@@ -62,7 +62,8 @@ app.get('/api/stores', async (req, res) => {
 app.get('/api/add-store', async (req, res) => {
   const { name, url, district, rating, mapsurl } = req.query;
   if (req.cookies.session === 'my-session-cookie') {
-    const status = await Model.addStore(name, url, district, rating, mapsurl);
+    let finalRating = rating !== 'null' ? parseFloat(rating) : null;
+    const status = await Model.addStore(name, url, district, finalRating, mapsurl);
     if (status.status === 'Success') {
       res.json({ message: "Added successful" });
     } else {

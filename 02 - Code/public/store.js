@@ -136,7 +136,7 @@ function register() {
             } else {
                 // Do something after failed registration
                 const textElement = document.querySelector('.grid-item p');
-                textElement.textContent = data.message;
+                textElement.textContent = "Email already in use!";
             }
         })
         .catch(error => console.error('Error registering:', error));
@@ -245,7 +245,9 @@ function addStoreToDOM(store, isLoggedIn) {
 
 async function deleteStore(name, district) {
     try {
-        const id = await getID(name, district);
+        const encodedName = encodeURIComponent(name);
+        const encodedDistrict = encodeURIComponent(district);
+        const id = await getID(encodedName, encodedDistrict);
         const response = await fetch(`/api/delete-store?id=${id}`);
         const data = await response.json();
         if (data.message === "Deleted successful") {

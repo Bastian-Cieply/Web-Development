@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const rating = urlParams.get('rating');
     const mapsurl = urlParams.get('mapsurl');
     
-    const id = await getID(name, district); // Hier auf die ID warten
+    const id = await getID(decodeURIComponent(name), decodeURIComponent(district)); // Hier auf die ID warten
 
     fillStoreInformation(name, district, url, rating, mapsurl);
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             document.getElementById('district').placeholder = 'District is required';
             return;
         } else {
-            const response = await fetch(`/api/edit-store?id=${id}&name=${name}&url=${url}&district=${district}&rating=${rating}&mapsurl=${mapsurl}`);
+            const response = await fetch(`/api/edit-store?id=${id}&name=${encodeURIComponent(name)}&url=${encodeURIComponent(url)}&district=${encodeURIComponent(district)}&rating=${rating}&mapsurl=${encodeURIComponent(mapsurl)}`);
             const data = await response.json();
 
             if (data.message === 'Edit successful') {
@@ -46,7 +46,7 @@ async function fillStoreInformation(name, district, url, rating, mapsURL) {
 }
 
 async function getID(name, district) {
-    const response = await fetch(`/api/get-store-id?name=${name}&district=${district}`);
+    const response = await fetch(`/api/get-store-id?name=${encodeURIComponent(name)}&district=${encodeURIComponent(district)}`);
     const data = await response.json();
     return data.id;
 }

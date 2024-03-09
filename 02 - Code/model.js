@@ -22,13 +22,14 @@ class ModelClass {
     await this.connection.query(`
     CREATE TABLE IF NOT EXISTS public.stores
     (
-        id SERIAL,
-        name text not null,
-        url text,
-        district text,
-        rating float,
-        mapsurl text,
-        CONSTRAINT stores_pkey PRIMARY KEY (id)
+      id SERIAL,
+      name text not null,
+      url text,
+      district text,
+      rating float,
+      mapsurl text,
+      CONSTRAINT stores_pkey PRIMARY KEY (id),
+      CONSTRAINT unique_name_district UNIQUE (name, district)
     )`);
 
     await this.connection.query(`
