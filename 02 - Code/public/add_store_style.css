@@ -1,0 +1,55 @@
+body {
+    font-family: 'Raleway';
+    background-color: #003d8f;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertikal zentrieren */
+    height: 98vh; /* Vollständige Höhe des Viewports */
+    width: 99%; /* Vollständige Breite */
+}
+
+.form-container {
+    background-color: #edae49;
+    text-align: center;
+    padding: 1vw;
+    border-radius: 2vw;
+    width: 50vw;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-container input {
+    width: 90%;
+    padding: 1%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container .buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.form-container .buttons-container button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-container .buttons-container .add-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.form-container .buttons-container .cancel-button {
+    background-color: #FF0000;
+    color: white;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="edit_store.js"></script>
+    <link rel="stylesheet" href="edit_store_style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+    <title>Jkpg City - Add Stores</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Edit the store information</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="district">District:</label>
+        <input type="text" id="district" name="district" required>
+
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url" required>
+
+        <label for="rating">Rating: Number out of 5</label>
+        <input type="float" id="rating" name="rating" required>
+
+        <label for="mapsURL">Maps URL:</label>
+        <input type="text" id="mapsURL" name="mapsURL" required>
+        
+        <div class="buttons-container">
+            <button class="save-button">Save</button>
+            <button class="cancel-button"><a href="/stores">Cancel</a></button>
+        </div>
+    </div>
+</body>
+</html>

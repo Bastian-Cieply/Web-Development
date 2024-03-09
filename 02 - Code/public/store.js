@@ -1,29 +1,22 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Event-Listener für Dropdown-Menüelemente hinzufügen
+    document.addEventListener('click', event => {
+        if (event.target.classList.contains('dropdown-item')) {
+            event.preventDefault(); // Verhindern, dass der Link folgt
+            const sortBy = event.target.textContent.toLowerCase(); // Wert aus dem Text des Links extrahieren
+            fetchStores(isLoggedIn, sortBy);
+        }
+    });
 
     fetch('/api/user-logged-in')
     .then(response => response.json())
     .then(data => {
         isLoggedIn = data.message === "User is logged in";
         // Hier kannst du den Code ausführen, der vom Login-Status abhängig ist
-        fetchStores(isLoggedIn);
+        fetchStores(isLoggedIn, "name");
         if (isLoggedIn) {
-            // Add-Button erstellen und hinzufügen
-            const storeNav = document.querySelector('.store-nav');
-            const addButton = document.createElement('div');
-            addButton.classList.add('add');
-            addbuttonHTML = `<a href=""> Add </a>`;
-            addButton.innerHTML = addbuttonHTML;
-            storeNav.appendChild(addButton);
 
             const gridContainer = document.querySelector('.grid-container');
-
-            // Textelement für user feedback (login) erstellen und hinzufügen
-            const textElement = document.createElement('p');
-            textElement.textContent = '';
-            const textGridItem = document.createElement('div');
-            textGridItem.classList.add('grid-item');
-            textGridItem.appendChild(textElement);
-            gridContainer.appendChild(textGridItem);
 
             const logoutButton = document.createElement('button');
             logoutButton.textContent = 'Log out';
@@ -33,13 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
             gridContainer.appendChild(logoutGridItem);
             logoutButton.addEventListener('click', logout); // Keine () hier
         } else {
-            const storeNav = document.querySelector('.store-nav');
-            const addButton = document.createElement('div');
-            addButton.classList.add('add');
-            addbuttonHTML = `<p>Log in to add stores!</p>`;
-            addButton.innerHTML = addbuttonHTML;
-            storeNav.appendChild(addButton);
-
+    
             const gridContainer = document.querySelector('.grid-container');
         
             // Textbox für E-Mails erstellen und hinzufügen
@@ -67,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
             loginGridItem.classList.add('grid-item');
             loginGridItem.appendChild(loginButton);
             gridContainer.appendChild(loginGridItem);
-            loginButton.addEventListener('click', login); // Keine () hier
+            loginButton.addEventListener('click', login);
 
             // Register-Knopf erstellen und hinzufügen
             const registerButton = document.createElement('button');
@@ -76,7 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
             registerGridItem.classList.add('grid-item');
             registerGridItem.appendChild(registerButton);
             gridContainer.appendChild(registerGridItem);
-            registerButton.addEventListener('click', register); // Keine () hier
+            registerButton.addEventListener('click', register);
 
             // Textelement für user feedback (login) erstellen und hinzufügen
             const textElement = document.createElement('p');
@@ -94,6 +81,11 @@ function login() {
     const emailInput = document.querySelector('input[type="email"]');
     const passwordInput = document.querySelector('input[type="password"]');
     
+    if (emailInput.value === '' || passwordInput.value === '') {
+        displayErrorMessage('Email and password must be filled.');
+        return;
+    }
+    
     const email = emailInput.value;
     const password = passwordInput.value;
     
@@ -101,20 +93,36 @@ function login() {
         .then(response => response.json())
         .then(data => {
             if (data.status === "Success") {
-                // Do something after successful login
+                // Bei erfolgreicher Anmeldung neu laden
                 location.reload();
             } else {
-                // Do something after failed login
-                const textElement = document.querySelector('.grid-item p');
-                textElement.textContent = data.message;
+                // Bei fehlgeschlagener Anmeldung Fehler anzeigen
+                if (data === false) {
+                    displayErrorMessage('Password not correct. Please try again.');
+                } else {
+                    console.log(data);
+                    displayErrorMessage(data);
+                }
             }
         })
-        .catch(error => console.error('Error logging in:', error));
+        .catch(error => {
+            displayErrorMessage('Email not registered. Please register first.');
+        });
+}
+
+function displayErrorMessage(message) {
+    const textElement = document.querySelector('.grid-item p');
+    textElement.textContent = message;
 }
 
 function register() {
     const emailInput = document.querySelector('input[type="email"]');
     const passwordInput = document.querySelector('input[type="password"]');
+    
+    if (emailInput.value === '' || passwordInput.value === '') {
+        displayErrorMessage('Email and password must be filled.');
+        return;
+    }
     
     const email = emailInput.value;
     const password = passwordInput.value;
@@ -134,15 +142,58 @@ function register() {
         .catch(error => console.error('Error registering:', error));
 }
 
-function fetchStores(isLoggedIn) {
-    fetch('/api/stores')
+function fetchStores(isLoggedIn, sortBy) {
+    let sortOrder = 'asc'; // Standard-Sortierreihenfolge
+    if (sortBy === 'rating') {
+        sortOrder = 'desc'; // Wenn nach Bewertung sortiert wird, absteigende Reihenfolge verwenden
+    }
+    const queryParams = new URLSearchParams({ sortBy, sortOrder }).toString();
+
+    const storeItemsContainer = document.querySelector('.store-items');
+
+    // Zurücksetzen des Inhalts und Hinzufügen der Navigationsleiste
+    storeItemsContainer.innerHTML = `
+        <div class="store-nav">
+            <div class="primary-navigation">
+                <ul>
+                    <li>
+                        Sort &dtrif;
+                        <ul class="dropdown">
+                            <li><a href="#" class="dropdown-item">Name</a></li>
+                            <li><a href="#" class="dropdown-item">District</a></li>
+                            <li><a href="#" class="dropdown-item">Rating</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    `;
+
+    if (isLoggedIn) {
+        const storeNav = document.querySelector('.store-nav');
+        const addButton = document.createElement('div');
+        addButton.classList.add('add');
+        addbuttonHTML = `<a href="/add_store"> Add </a>`;
+        addButton.innerHTML = addbuttonHTML;
+        storeNav.appendChild(addButton);
+    } else {
+        const storeNav = document.querySelector('.store-nav');
+        const addButton = document.createElement('div');
+        addButton.classList.add('add');
+        addbuttonHTML = `<p>Log in to add your store!</p>`;
+        addButton.innerHTML = addbuttonHTML;
+        storeNav.appendChild(addButton);
+    }
+
+    fetch(`/api/stores?${queryParams}`)
         .then(response => response.json())
         .then(data => {
+            // Geschäfte hinzufügen
             data.forEach(store => {
                 addStoreToDOM(store, isLoggedIn);
             });
         })
-        .catch(error => console.error('Error fetching stores:', error));
+        .catch(error => console.error('Fehler beim Abrufen der Geschäfte:', error));
 }
 
 function addStoreToDOM(store, isLoggedIn) {
@@ -152,32 +203,57 @@ function addStoreToDOM(store, isLoggedIn) {
     storeItem.classList.add('store-item');
 
     if (isLoggedIn) {
-        storeHTML = `<div class="edit"><a href="">Edit</a></div>
-        <div class="name">${store.name}</div><div class="delete"><a href="">Delete</a></div>`;
+        storeItem.innerHTML = `
+            <div class="edit"><a href="/edit_store?id=${encodeURIComponent(store.id)}&name=${encodeURIComponent(store.name)}&district=${encodeURIComponent(store.district)}&url=${encodeURIComponent(store.url)}&rating=${encodeURIComponent(store.rating)}&mapsurl=${encodeURIComponent(store.mapsurl)}">Edit</a></div>
+            <div class="name">${store.name}</div>
+            <div class="delete"><a href="">Delete</a></div>
+        `;
     } else {
-        storeHTML = `<div class="edit"></div>
-        <div class="name">${store.name}</div><div class="delete"></div>`;
+        storeItem.innerHTML = `
+            <div class="edit"></div>
+            <div class="name">${store.name}</div>
+            <div class="delete"></div>
+        `;
     }
 
     if (store.mapsurl !== null) {
         storeItem.setAttribute('onclick', `showLocation('${store.mapsurl}')`);
-    } 
+    }
 
     if (store.district !== null) {
-        storeHTML += `<div class="address">District: ${store.district}</div>`;
+        storeItem.innerHTML += `<div class="address">District: ${store.district}</div>`;
     }
 
     if (store.url !== null) {
-        storeHTML += `<div class="website"><a href="https://${store.url}">Website</a></div>`;
+        storeItem.innerHTML += `<div class="website"><a href="https://${store.url}">Website</a></div>`;
     }
 
     if (store.rating !== null) {
-        storeHTML += `<div class="rating">Rating: ${store.rating}/5</div>`;
+        storeItem.innerHTML += `<div class="rating">Rating: ${store.rating}/5</div>`;
     }
 
-    storeItem.innerHTML = storeHTML;
-
     storeItemsContainer.appendChild(storeItem);
+
+    const deleteButton = storeItem.querySelector('.delete a');
+    if (deleteButton) {
+        deleteButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            deleteStore(store.name, store.district);
+        });
+    }
+}
+
+async function deleteStore(name, district) {
+    try {
+        const id = await getID(name, district);
+        const response = await fetch(`/api/delete-store?id=${id}`);
+        const data = await response.json();
+        if (data.message === "Deleted successful") {
+            location.reload();
+        }
+    } catch (error) {
+        console.error('Error deleting store:', error);
+    }
 }
 
 function myFunction(x) {
@@ -192,7 +268,7 @@ function logout() {
             if (data.message === "User logged out") {
                 location.reload();
             } else {
-                // Handle unsuccessful logout
+                console.log(data.message);
             }
         })
         .catch(error => console.error('Error logging out:', error));
@@ -207,5 +283,11 @@ function showLocation(mapsurl) {
     var iframe = document.querySelector('.map iframe');
     var newSrc = mapsurl;
     iframe.src = newSrc;
+}
+
+async function getID(name, district) {
+    const response = await fetch(`/api/get-store-id?name=${name}&district=${district}`);
+    const data = await response.json();
+    return data.id;
 }
 
